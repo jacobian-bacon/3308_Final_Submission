@@ -80,9 +80,9 @@ app.use(express.static(__dirname + '/'));//This line is necessary for us to use 
   			Next it will pass this result to the player_info view (pages/player_info), which will use the ids & names to populate the select tag for a form 
 ************************************/
 
-// login page 
+// home page
 app.get('/', function(req, res) {
-	res.render('pages/login',{
+	res.render('pages/home',{
 		local_css:"signin.css", 
 		my_title:"Login Page"
 	});
@@ -311,5 +311,5 @@ console.log(player);
 
 });
 
-app.listen(3000);
-console.log('3000 is the magic port');
+app.listen(8080);
+console.log('8080 is the magic port');
