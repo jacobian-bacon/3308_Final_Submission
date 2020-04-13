@@ -11,8 +11,8 @@ CREATE DATABASE micro_db
 \c micro_db
 
 /***** Add tables *****/
-DROP TABLE user;
-CREATE TABLE IF NOT EXISTS user(
+DROP TABLE "user";
+CREATE TABLE IF NOT EXISTS "user"(
   user_id SERIAL PRIMARY KEY, 	/* Unique identifier for each user */
   name VARCHAR(50) NOT NULL,  	/* The user's first & last name */
   email VARCHAR(50) NOT NULL,   /* user's email address */
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS user(
 
 
 DROP TABLE micro_image;
-CREATE TABLE IF NOT EXISTS micro_image (
+CREATE TABLE IF NOT EXISTS "micro_image" (
   image_id SERIAL PRIMARY KEY,       	/* Unique identifier for each image */
   image_file BYTEA,			/* stores profile image */
   image_size SMALLINT NOT NULL,  	/* size of image */
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS micro_image (
 );
 
 DROP TABLE rock_attributes;
-CREATE TABLE IF NOT EXISTS rock_attributes (
+CREATE TABLE IF NOT EXISTS "rock_attributes" (
   rock_id SERIAL PRIMARY KEY,       	/* Unique identifier for each rock */
   user_id SERIAL,		 	/* User who uploaded added rock. FK. */
   image_id SERIAL,       		/* FK */

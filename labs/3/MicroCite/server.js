@@ -95,6 +95,13 @@ app.get('/register', function(req, res) {
 	});
 });
 
+// login page 
+app.get('/login', function(req, res) {
+	res.render('pages/login',{
+		my_title:"Login Page"
+	});
+});
+
 // map page 
 app.get('/worldMap', function(req, res) {
 	res.render('pages/worldMap',{
