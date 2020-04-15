@@ -21,11 +21,11 @@ $\/\/
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1586919157,,"q"
-:w
-|2,0,1586919141,,"w"
+|2,0,1586919860,,"q"
 :wq
-|2,0,1586918334,,"wq"
+|2,0,1586919800,,"wq"
+:w
+|2,0,1586919743,,"w"
 :'<,'>s/^/\/\/
 |2,0,1586916582,,"'<,'>s/^/\\/\\/"
 :/console\.
@@ -97,7 +97,19 @@ $\/\/
 				  </div>
 |3,0,0,1,8,0,1586551145,"		  <div class=\"item active\">","			<img style=\"width: 100%; height:600px;\" src=\"../resources/websiteImages/mainPageImage.jpg\" class=\"rounded-circle\" alt=\"Picture of night sky with meteorite\" height = \"500px\">","			<div class=\"carousel-caption\">","				<h3>We Share</h3>","				<p>This is a website was created by students from cu boulder.<br>Our mission is to enable folks to upload and share",>87
 |<"					the locations, images and information on micrometeorites found around the world.","				</p>!</p>","			  </div>"
-"1	LINE	0
+""1	LINE	0
+	);
+|3,1,1,1,1,0,1586919742,");"
+"2	LINE	0
+			local_css:"signin.css", 
+|3,0,2,1,1,0,1586919721,"		local_css:\"signin.css\", "
+"3	LINE	0
+			local_css:"signin.css", 
+|3,0,3,1,1,0,1586919715,"		local_css:\"signin.css\", "
+"4	LINE	0
+		tle:"Login Page"
+|3,0,4,1,1,0,1586919714,"	tle:\"Login Page\""
+"5	LINE	0
 	    <div class="heading">
 	        <h2 id="testsub" style="text-align: left;">Hello</h2>
 	            <%
@@ -109,72 +121,120 @@ $\/\/
 	            <%- content %>
 	            <% } %>
 	    </div>
-|3,0,1,1,11,0,1586919000,"    <div class=\"heading\">","        <h2 id=\"testsub\" style=\"text-align: left;\">Hello</h2>","            <%","            if (row) {","                let content = '';","                .forEach(function(user){","                    content += \"name is \" + user.name + \"email is \" + user.email;","                }); %>","            <%- content %>","            <% } %>","    </div>"
-"2	LINE	0
-			  </div>
-|3,0,2,1,1,0,1586551713,"		  </div>"
-"3	LINE	0
-	    </div>
-|3,0,3,1,1,0,1586551713,"    </div>"
-"4	LINE	0
-	      <img class="d-block w-100" src="http://getwallpapers.com/wallpaper/full/9/d/e/743396-vertical-meteor-shower-wallpapers-2560x1600.jpg" alt="Second slide">
-|3,0,4,1,1,0,1586551711,"      <img class=\"d-block w-100\" src=\"http://getwallpapers.com/wallpaper/full/9/d/e/743396-vertical-meteor-shower-wallpapers-2560x1600.jpg\" alt=\"Second slide\">"
-"5	LINE	0
-	    <div class="carousel-item">
-|3,0,5,1,1,0,1586551711,"    <div class=\"carousel-item\">"
+|3,0,5,1,11,0,1586919000,"    <div class=\"heading\">","        <h2 id=\"testsub\" style=\"text-align: left;\">Hello</h2>","            <%","            if (row) {","                let content = '';","                .forEach(function(user){","                    content += \"name is \" + user.name + \"email is \" + user.email;","                }); %>","            <%- content %>","            <% } %>","    </div>"
 "6	LINE	0
-				 </div>
-|3,0,6,1,1,0,1586551661,"			 </div>"
+			  </div>
+|3,0,6,1,1,0,1586551713,"		  </div>"
 "7	LINE	0
-		</div>
-|3,0,7,1,1,0,1586551386,"	</div>"
+	    </div>
+|3,0,7,1,1,0,1586551713,"    </div>"
 "8	LINE	0
-					</p>!</p>
-|3,0,8,1,1,0,1586551270,"				</p>!</p>"
+	      <img class="d-block w-100" src="http://getwallpapers.com/wallpaper/full/9/d/e/743396-vertical-meteor-shower-wallpapers-2560x1600.jpg" alt="Second slide">
+|3,0,8,1,1,0,1586551711,"      <img class=\"d-block w-100\" src=\"http://getwallpapers.com/wallpaper/full/9/d/e/743396-vertical-meteor-shower-wallpapers-2560x1600.jpg\" alt=\"Second slide\">"
 "9	LINE	0
-						the locations, images and information on micrometeorites found around the world.
-|3,0,9,1,1,0,1586551269,"					the locations, images and information on micrometeorites found around the world."
-""-	CHAR	0
-	w
-|3,1,36,0,1,0,1586919018,"w"
+	    <div class="carousel-item">
+|3,0,9,1,1,0,1586551711,"    <div class=\"carousel-item\">"
+"-	CHAR	0
+	,
+|3,0,36,0,1,0,1586919730,","
 
 # File marks:
-'0  44  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,48,44,4,1586919157,"~/labs/3/MicroCite/views/pages/home.ejs"
-'1  139  34  ~/labs/3/MicroCite/server.js
-|4,49,139,34,1586918334,"~/labs/3/MicroCite/server.js"
-'2  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
-|4,50,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
-'3  1  0  ~/labs/3/MicroCite/server.js
-|4,51,1,0,1586917515,"~/labs/3/MicroCite/server.js"
-'4  1  0  ~/labs/3/MicroCite/server.js
-|4,52,1,0,1586917515,"~/labs/3/MicroCite/server.js"
-'5  324  15  ~/labs/3/MicroCite/server.js
-|4,53,324,15,1586917189,"~/labs/3/MicroCite/server.js"
-'6  324  15  ~/labs/3/MicroCite/server.js
-|4,54,324,15,1586917189,"~/labs/3/MicroCite/server.js"
-'7  324  15  ~/labs/3/MicroCite/server.js
-|4,55,324,15,1586917189,"~/labs/3/MicroCite/server.js"
-'8  324  15  ~/labs/3/MicroCite/server.js
-|4,56,324,15,1586917189,"~/labs/3/MicroCite/server.js"
-'9  125  0  ~/labs/3/MicroCite/server.js
-|4,57,125,0,1586916693,"~/labs/3/MicroCite/server.js"
+'0  94  6  ~/labs/3/MicroCite/server.js
+|4,48,94,6,1586919860,"~/labs/3/MicroCite/server.js"
+'1  86  11  ~/labs/3/MicroCite/server.js
+|4,49,86,11,1586919800,"~/labs/3/MicroCite/server.js"
+'2  86  11  ~/labs/3/MicroCite/server.js
+|4,50,86,11,1586919800,"~/labs/3/MicroCite/server.js"
+'3  44  4  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,51,44,4,1586919157,"~/labs/3/MicroCite/views/pages/home.ejs"
+'4  139  34  ~/labs/3/MicroCite/server.js
+|4,52,139,34,1586918334,"~/labs/3/MicroCite/server.js"
+'5  139  34  ~/labs/3/MicroCite/server.js
+|4,53,139,34,1586918334,"~/labs/3/MicroCite/server.js"
+'6  139  34  ~/labs/3/MicroCite/server.js
+|4,54,139,34,1586918334,"~/labs/3/MicroCite/server.js"
+'7  139  34  ~/labs/3/MicroCite/server.js
+|4,55,139,34,1586918334,"~/labs/3/MicroCite/server.js"
+'8  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,56,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+'9  1  0  ~/labs/3/MicroCite/server.js
+|4,57,1,0,1586917515,"~/labs/3/MicroCite/server.js"
 
 # Jumplist (newest first):
+-'  94  6  ~/labs/3/MicroCite/server.js
+|4,39,94,6,1586919860,"~/labs/3/MicroCite/server.js"
+-'  1  0  ~/labs/3/MicroCite/server.js
+|4,39,1,0,1586919821,"~/labs/3/MicroCite/server.js"
+-'  86  11  ~/labs/3/MicroCite/server.js
+|4,39,86,11,1586919800,"~/labs/3/MicroCite/server.js"
+-'  86  11  ~/labs/3/MicroCite/server.js
+|4,39,86,11,1586919800,"~/labs/3/MicroCite/server.js"
+-'  89  1  ~/labs/3/MicroCite/server.js
+|4,39,89,1,1586919784,"~/labs/3/MicroCite/server.js"
+-'  88  1  ~/labs/3/MicroCite/server.js
+|4,39,88,1,1586919784,"~/labs/3/MicroCite/server.js"
+-'  89  1  ~/labs/3/MicroCite/server.js
+|4,39,89,1,1586919784,"~/labs/3/MicroCite/server.js"
+-'  88  1  ~/labs/3/MicroCite/server.js
+|4,39,88,1,1586919784,"~/labs/3/MicroCite/server.js"
+-'  87  1  ~/labs/3/MicroCite/server.js
+|4,39,87,1,1586919783,"~/labs/3/MicroCite/server.js"
+-'  87  1  ~/labs/3/MicroCite/server.js
+|4,39,87,1,1586919783,"~/labs/3/MicroCite/server.js"
+-'  90  0  ~/labs/3/MicroCite/server.js
+|4,39,90,0,1586919782,"~/labs/3/MicroCite/server.js"
+-'  90  0  ~/labs/3/MicroCite/server.js
+|4,39,90,0,1586919782,"~/labs/3/MicroCite/server.js"
+-'  1  0  ~/labs/3/MicroCite/server.js
+|4,39,1,0,1586919600,"~/labs/3/MicroCite/server.js"
+-'  44  4  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,44,4,1586919157,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  44  4  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,44,4,1586919157,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  44  4  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,44,4,1586919157,"~/labs/3/MicroCite/views/pages/home.ejs"
 -'  44  4  ~/labs/3/MicroCite/views/pages/home.ejs
 |4,39,44,4,1586919157,"~/labs/3/MicroCite/views/pages/home.ejs"
 -'  28  62  ~/labs/3/MicroCite/views/pages/home.ejs
 |4,39,28,62,1586919136,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  28  62  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,28,62,1586919136,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  28  62  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,28,62,1586919136,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  28  62  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,28,62,1586919136,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  22  4  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,22,4,1586919006,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  22  4  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,22,4,1586919006,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  22  4  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,22,4,1586919006,"~/labs/3/MicroCite/views/pages/home.ejs"
 -'  22  4  ~/labs/3/MicroCite/views/pages/home.ejs
 |4,39,22,4,1586919006,"~/labs/3/MicroCite/views/pages/home.ejs"
 -'  33  0  ~/labs/3/MicroCite/views/pages/home.ejs
 |4,39,33,0,1586919002,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  33  0  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,33,0,1586919002,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  33  0  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,33,0,1586919002,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  33  0  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,33,0,1586919002,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,1,0,1586918406,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,1,0,1586918406,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,1,0,1586918406,"~/labs/3/MicroCite/views/pages/home.ejs"
 -'  1  0  ~/labs/3/MicroCite/views/pages/home.ejs
 |4,39,1,0,1586918406,"~/labs/3/MicroCite/views/pages/home.ejs"
 -'  139  34  ~/labs/3/MicroCite/server.js
 |4,39,139,34,1586918334,"~/labs/3/MicroCite/server.js"
 -'  139  34  ~/labs/3/MicroCite/server.js
 |4,39,139,34,1586918334,"~/labs/3/MicroCite/server.js"
+-'  139  34  ~/labs/3/MicroCite/server.js
+|4,39,139,34,1586918334,"~/labs/3/MicroCite/server.js"
+-'  139  34  ~/labs/3/MicroCite/server.js
+|4,39,139,34,1586918334,"~/labs/3/MicroCite/server.js"
 -'  1  0  ~/labs/3/MicroCite/server.js
 |4,39,1,0,1586918297,"~/labs/3/MicroCite/server.js"
 -'  1  0  ~/labs/3/MicroCite/server.js
@@ -187,6 +247,54 @@ $\/\/
 |4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
 -'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
 |4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  16  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,16,0,1586918283,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
+-'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
+|4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
 -'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
 |4,39,1,0,1586917532,"~/labs/3/MicroCite/database/create_db_j_edits.sql"
 -'  1  0  ~/labs/3/MicroCite/database/create_db_j_edits.sql
@@ -223,6 +331,14 @@ $\/\/
 |4,39,324,15,1586917189,"~/labs/3/MicroCite/server.js"
 -'  324  15  ~/labs/3/MicroCite/server.js
 |4,39,324,15,1586917189,"~/labs/3/MicroCite/server.js"
+-'  324  15  ~/labs/3/MicroCite/server.js
+|4,39,324,15,1586917189,"~/labs/3/MicroCite/server.js"
+-'  324  15  ~/labs/3/MicroCite/server.js
+|4,39,324,15,1586917189,"~/labs/3/MicroCite/server.js"
+-'  154  12  ~/labs/3/MicroCite/server.js
+|4,39,154,12,1586917119,"~/labs/3/MicroCite/server.js"
+-'  154  12  ~/labs/3/MicroCite/server.js
+|4,39,154,12,1586917119,"~/labs/3/MicroCite/server.js"
 -'  154  12  ~/labs/3/MicroCite/server.js
 |4,39,154,12,1586917119,"~/labs/3/MicroCite/server.js"
 -'  154  12  ~/labs/3/MicroCite/server.js
@@ -245,124 +361,42 @@ $\/\/
 |4,39,154,12,1586917119,"~/labs/3/MicroCite/server.js"
 -'  219  12  ~/labs/3/MicroCite/server.js
 |4,39,219,12,1586917115,"~/labs/3/MicroCite/server.js"
--'  199  6  ~/labs/3/MicroCite/server.js
-|4,39,199,6,1586917115,"~/labs/3/MicroCite/server.js"
--'  219  12  ~/labs/3/MicroCite/server.js
-|4,39,219,12,1586917115,"~/labs/3/MicroCite/server.js"
--'  199  6  ~/labs/3/MicroCite/server.js
-|4,39,199,6,1586917115,"~/labs/3/MicroCite/server.js"
--'  219  12  ~/labs/3/MicroCite/server.js
-|4,39,219,12,1586917115,"~/labs/3/MicroCite/server.js"
--'  199  6  ~/labs/3/MicroCite/server.js
-|4,39,199,6,1586917115,"~/labs/3/MicroCite/server.js"
--'  219  12  ~/labs/3/MicroCite/server.js
-|4,39,219,12,1586917115,"~/labs/3/MicroCite/server.js"
--'  199  6  ~/labs/3/MicroCite/server.js
-|4,39,199,6,1586917115,"~/labs/3/MicroCite/server.js"
--'  219  12  ~/labs/3/MicroCite/server.js
-|4,39,219,12,1586917115,"~/labs/3/MicroCite/server.js"
--'  199  6  ~/labs/3/MicroCite/server.js
-|4,39,199,6,1586917115,"~/labs/3/MicroCite/server.js"
--'  219  12  ~/labs/3/MicroCite/server.js
-|4,39,219,12,1586917115,"~/labs/3/MicroCite/server.js"
--'  199  6  ~/labs/3/MicroCite/server.js
-|4,39,199,6,1586917115,"~/labs/3/MicroCite/server.js"
--'  219  12  ~/labs/3/MicroCite/server.js
-|4,39,219,12,1586917115,"~/labs/3/MicroCite/server.js"
--'  199  6  ~/labs/3/MicroCite/server.js
-|4,39,199,6,1586917115,"~/labs/3/MicroCite/server.js"
--'  219  12  ~/labs/3/MicroCite/server.js
-|4,39,219,12,1586917115,"~/labs/3/MicroCite/server.js"
--'  199  6  ~/labs/3/MicroCite/server.js
-|4,39,199,6,1586917115,"~/labs/3/MicroCite/server.js"
--'  219  12  ~/labs/3/MicroCite/server.js
-|4,39,219,12,1586917115,"~/labs/3/MicroCite/server.js"
--'  199  6  ~/labs/3/MicroCite/server.js
-|4,39,199,6,1586917115,"~/labs/3/MicroCite/server.js"
--'  219  12  ~/labs/3/MicroCite/server.js
-|4,39,219,12,1586917115,"~/labs/3/MicroCite/server.js"
--'  199  6  ~/labs/3/MicroCite/server.js
-|4,39,199,6,1586917115,"~/labs/3/MicroCite/server.js"
--'  86  19  ~/labs/3/MicroCite/server.js
-|4,39,86,19,1586916796,"~/labs/3/MicroCite/server.js"
--'  86  19  ~/labs/3/MicroCite/server.js
-|4,39,86,19,1586916796,"~/labs/3/MicroCite/server.js"
--'  86  19  ~/labs/3/MicroCite/server.js
-|4,39,86,19,1586916796,"~/labs/3/MicroCite/server.js"
--'  86  19  ~/labs/3/MicroCite/server.js
-|4,39,86,19,1586916796,"~/labs/3/MicroCite/server.js"
--'  86  19  ~/labs/3/MicroCite/server.js
-|4,39,86,19,1586916796,"~/labs/3/MicroCite/server.js"
--'  86  19  ~/labs/3/MicroCite/server.js
-|4,39,86,19,1586916796,"~/labs/3/MicroCite/server.js"
--'  86  19  ~/labs/3/MicroCite/server.js
-|4,39,86,19,1586916796,"~/labs/3/MicroCite/server.js"
--'  86  19  ~/labs/3/MicroCite/server.js
-|4,39,86,19,1586916796,"~/labs/3/MicroCite/server.js"
--'  86  19  ~/labs/3/MicroCite/server.js
-|4,39,86,19,1586916796,"~/labs/3/MicroCite/server.js"
--'  86  19  ~/labs/3/MicroCite/server.js
-|4,39,86,19,1586916796,"~/labs/3/MicroCite/server.js"
--'  83  3  ~/labs/3/MicroCite/server.js
-|4,39,83,3,1586916795,"~/labs/3/MicroCite/server.js"
--'  67  89  ~/labs/3/MicroCite/server.js
-|4,39,67,89,1586916795,"~/labs/3/MicroCite/server.js"
--'  83  3  ~/labs/3/MicroCite/server.js
-|4,39,83,3,1586916795,"~/labs/3/MicroCite/server.js"
--'  67  89  ~/labs/3/MicroCite/server.js
-|4,39,67,89,1586916795,"~/labs/3/MicroCite/server.js"
--'  83  3  ~/labs/3/MicroCite/server.js
-|4,39,83,3,1586916795,"~/labs/3/MicroCite/server.js"
--'  67  89  ~/labs/3/MicroCite/server.js
-|4,39,67,89,1586916795,"~/labs/3/MicroCite/server.js"
--'  83  3  ~/labs/3/MicroCite/server.js
-|4,39,83,3,1586916795,"~/labs/3/MicroCite/server.js"
--'  67  89  ~/labs/3/MicroCite/server.js
-|4,39,67,89,1586916795,"~/labs/3/MicroCite/server.js"
--'  83  3  ~/labs/3/MicroCite/server.js
-|4,39,83,3,1586916795,"~/labs/3/MicroCite/server.js"
--'  67  89  ~/labs/3/MicroCite/server.js
-|4,39,67,89,1586916795,"~/labs/3/MicroCite/server.js"
--'  83  3  ~/labs/3/MicroCite/server.js
-|4,39,83,3,1586916795,"~/labs/3/MicroCite/server.js"
--'  67  89  ~/labs/3/MicroCite/server.js
-|4,39,67,89,1586916795,"~/labs/3/MicroCite/server.js"
--'  83  3  ~/labs/3/MicroCite/server.js
-|4,39,83,3,1586916795,"~/labs/3/MicroCite/server.js"
--'  67  89  ~/labs/3/MicroCite/server.js
-|4,39,67,89,1586916795,"~/labs/3/MicroCite/server.js"
--'  83  3  ~/labs/3/MicroCite/server.js
-|4,39,83,3,1586916795,"~/labs/3/MicroCite/server.js"
--'  67  89  ~/labs/3/MicroCite/server.js
-|4,39,67,89,1586916795,"~/labs/3/MicroCite/server.js"
--'  83  3  ~/labs/3/MicroCite/server.js
-|4,39,83,3,1586916795,"~/labs/3/MicroCite/server.js"
--'  67  89  ~/labs/3/MicroCite/server.js
-|4,39,67,89,1586916795,"~/labs/3/MicroCite/server.js"
--'  83  3  ~/labs/3/MicroCite/server.js
-|4,39,83,3,1586916795,"~/labs/3/MicroCite/server.js"
--'  67  89  ~/labs/3/MicroCite/server.js
-|4,39,67,89,1586916795,"~/labs/3/MicroCite/server.js"
--'  65  85  ~/labs/3/MicroCite/server.js
-|4,39,65,85,1586916794,"~/labs/3/MicroCite/server.js"
--'  63  114  ~/labs/3/MicroCite/server.js
-|4,39,63,114,1586916794,"~/labs/3/MicroCite/server.js"
--'  62  5  ~/labs/3/MicroCite/server.js
-|4,39,62,5,1586916794,"~/labs/3/MicroCite/server.js"
--'  65  85  ~/labs/3/MicroCite/server.js
-|4,39,65,85,1586916794,"~/labs/3/MicroCite/server.js"
--'  63  114  ~/labs/3/MicroCite/server.js
-|4,39,63,114,1586916794,"~/labs/3/MicroCite/server.js"
--'  62  5  ~/labs/3/MicroCite/server.js
-|4,39,62,5,1586916794,"~/labs/3/MicroCite/server.js"
--'  65  85  ~/labs/3/MicroCite/server.js
-|4,39,65,85,1586916794,"~/labs/3/MicroCite/server.js"
--'  63  114  ~/labs/3/MicroCite/server.js
-|4,39,63,114,1586916794,"~/labs/3/MicroCite/server.js"
--'  62  5  ~/labs/3/MicroCite/server.js
-|4,39,62,5,1586916794,"~/labs/3/MicroCite/server.js"
 
 # History of marks within files (newest to oldest):
+
+> ~/labs/3/MicroCite/server.js
+	*	1586919831	0
+	"	94	6
+	^	86	28
+	.	86	0
+	+	83	2
+	+	86	0
+	+	83	11
+	+	86	22
+	+	153	10
+	+	90	4
+	+	316	14
+	+	317	16
+	+	114	10
+	+	86	0
+	+	84	14
+	+	86	23
+	+	30	12
+	+	140	3
+	+	140	0
+	+	143	11
+	+	142	29
+	+	86	24
+	+	121	0
+	+	154	15
+	+	139	34
+	+	86	12
+	+	90	1
+	+	90	0
+	+	86	27
+	+	86	0
+	i	139	28
+	y	139	28
 
 > ~/labs/3/MicroCite/views/pages/home.ejs
 	*	1586919141	0
@@ -380,35 +414,6 @@ $\/\/
 	+	27	19
 	+	25	19
 	+	28	62
-
-> ~/labs/3/MicroCite/server.js
-	*	1586918332	0
-	"	139	34
-	^	139	35
-	.	139	34
-	+	83	2
-	+	86	0
-	+	83	11
-	+	86	22
-	+	153	10
-	+	87	4
-	+	316	14
-	+	317	16
-	+	114	10
-	+	86	0
-	+	84	14
-	+	86	23
-	+	30	12
-	+	140	3
-	+	140	0
-	+	143	11
-	+	142	29
-	+	86	24
-	+	121	0
-	+	154	15
-	+	139	34
-	i	139	28
-	y	139	28
 
 > ~/labs/3/MicroCite/database/create_db_j_edits.sql
 	*	1586917554	0

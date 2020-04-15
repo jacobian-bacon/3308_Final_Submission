@@ -22,7 +22,7 @@
     <div class="heading">
         <h2 id="testsub" style="text-align: left;">Hello</h2>
             <%
-            if (data) {
+            if (locals.data) {
                 let content = '';
                 data.forEach(function(user){
                     content += "Your name is " + user.name + " and your email is " + user.email;

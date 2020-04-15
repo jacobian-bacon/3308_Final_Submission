@@ -1589,3 +1589,140 @@ data is not defined
     at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
     at /root/labs/3/MicroCite/server.js:86:6
     at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /root/labs/3/MicroCite/views/pages/home.ejs:24
+    22|     <div class="heading">
+    23|         <h2 id="testsub" style="text-align: left;">Hello</h2>
+ >> 24|             <%
+    25|             if (data) {
+    26|                 let content = '';
+    27|                 data.forEach(function(user){
+
+data is not defined
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:36:13)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:86:6
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /root/labs/3/MicroCite/views/pages/home.ejs:24
+    22|     <div class="heading">
+    23|         <h2 id="testsub" style="text-align: left;">Hello</h2>
+ >> 24|             <%
+    25|             if (data) {
+    26|                 let content = '';
+    27|                 data.forEach(function(user){
+
+data is not defined
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:36:13)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:86:6
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /root/labs/3/MicroCite/views/pages/home.ejs:24
+    22|     <div class="heading">
+    23|         <h2 id="testsub" style="text-align: left;">Hello</h2>
+ >> 24|             <%
+    25|             if (data) {
+    26|                 let content = '';
+    27|                 data.forEach(function(user){
+
+data is not defined
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:36:13)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:86:6
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: /root/labs/3/MicroCite/views/pages/home.ejs:24
+    22|     <div class="heading">
+    23|         <h2 id="testsub" style="text-align: left;">Hello</h2>
+ >> 24|             <%
+    25|             if (data) {
+    26|                 let content = '';
+    27|                 data.forEach(function(user){
+
+data is not defined
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:36:13)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:86:6
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+Wed, 15 Apr 2020 03:01:12 GMT express deprecated res.redirect(url, status): Use res.redirect(status, url) instead at server.js:86:6
+RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: [object Object]
+    at ServerResponse.writeHead (_http_server.js:208:11)
+    at ServerResponse._implicitHeader (_http_server.js:199:8)
+    at write_ (_http_outgoing.js:597:9)
+    at ServerResponse.end (_http_outgoing.js:714:5)
+    at ServerResponse.redirect (/root/labs/3/MicroCite/node_modules/express/lib/response.js:947:10)
+    at /root/labs/3/MicroCite/server.js:86:6
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+SyntaxError: Unexpected token else in /root/labs/3/MicroCite/views/pages/home.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12)
+    at Object.compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:389:16)
+    at handleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:212:18)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:16)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+ReferenceError: /root/labs/3/MicroCite/views/pages/home.ejs:24
+    22|     <div class="heading">
+    23|         <h2 id="testsub" style="text-align: left;">Hello</h2>
+ >> 24|             <%
+    25|             if (data) {
+    26|                 let content = '';
+    27|                 data.forEach(function(user){
+
+data is not defined
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:36:13)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:86:6
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+SyntaxError: Unexpected identifier in /root/labs/3/MicroCite/views/pages/home.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass async: true as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12)
+    at Object.compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:389:16)
+    at handleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:212:18)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:16)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
