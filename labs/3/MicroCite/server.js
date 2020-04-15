@@ -82,6 +82,7 @@ app.use(express.static(__dirname + '/'));//This line is necessary for us to use 
 
 // home page
 app.get('/', function(req, res) {
+    console.log('hello');
 	res.render('pages/home',{
 		local_css:"signin.css", 
 		my_title:"Login Page"
@@ -117,12 +118,12 @@ app.get('/Gallery', function(req, res) {
 });
 
 // home page 
-app.get('/home', function(req, res) {
-	res.render('pages/home',{
-		my_title:"home"
-	});
-});
-
+//app.get('/home', function(req, res) {
+//	res.render('pages/home',{
+//		my_title:"home"
+//	});
+//});
+//
 // submit page 
 app.get('/newMeteoriteSubmissionForm', function(req, res) {
 	res.render('pages/newMeteoriteSubmissionForm',{
@@ -138,6 +139,7 @@ app.get('/home', function(req, res) {
 	var query = 'select * from favorite_colors;';
 	db.any(query)
         .then(function (rows) {
+            console.log(rows); 
             res.render('pages/home',{
 				my_title: "Home Page",
 				data: rows,
@@ -149,7 +151,7 @@ app.get('/home', function(req, res) {
         .catch(function (err) {
             // display error message in case an error
             console.log('error', err);
-            response.render('pages/home', {
+            res.render('pages/home', {
                 title: 'Home Page',
                 data: '',
                 color: '',
