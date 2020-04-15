@@ -136,7 +136,7 @@ app.get('/newMeteoriteSubmissionForm', function(req, res) {
 /*Add your other get/post request handlers below here: */
 
 app.get('/home', function(req, res) {
-	var query = 'select * from favorite_colors;';
+	var query = 'select * from end_usr;';
 	db.any(query)
         .then(function (rows) {
             console.log(rows); 

@@ -1,0 +1,1673 @@
+3000 is the magic port
+8080 is the magic port
+8080 is the magic port
+3000 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+8080 is the magic port
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+error { error: password authentication failed for user "postgres"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 104,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '329',
+  routine: 'auth_failed' }
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+hello
+hello
+8080 is the magic port
+error { error: relation "favorite_colors" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 114,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1180',
+  routine: 'parserOpenTable' }
+error { error: relation "favorite_colors" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 114,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1180',
+  routine: 'parserOpenTable' }
+8080 is the magic port
+error { error: relation "favorite_colors" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 114,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1180',
+  routine: 'parserOpenTable' }
+error { error: relation "favorite_colors" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 114,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1180',
+  routine: 'parserOpenTable' }
+error { error: relation "favorite_colors" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 114,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1180',
+  routine: 'parserOpenTable' }
+error { error: relation "favorite_colors" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 114,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1180',
+  routine: 'parserOpenTable' }
+error { error: relation "favorite_colors" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 114,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1180',
+  routine: 'parserOpenTable' }
+hello
+hello
+hello
+hello
+error { error: relation "favorite_colors" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 114,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1180',
+  routine: 'parserOpenTable' }
+8080 is the magic port
+error { error: relation "favorite_colors" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 114,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1180',
+  routine: 'parserOpenTable' }
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+8080 is the magic port
+hello
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null } ]
+hello
+hello
+hello
+hello
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null } ]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null } ]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null } ]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null } ]
+hello

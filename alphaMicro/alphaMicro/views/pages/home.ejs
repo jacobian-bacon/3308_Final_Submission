@@ -1,0 +1,32 @@
+<% include ../partials/header %>
+<% include ../partials/menu %>
+ 	<div class="container">
+		<br>
+		<br>
+		<div class="row">
+				<div class="jumbotron">
+				  <h1 class="display-4">Content</h1>
+				  <p class="lead">
+          Content</p>
+					<hr>
+				</div>
+		</div>
+         <div class="card-body mx-auto">
+					<div class="card" action="/home/post" method="get">
+						<div class="card" name="micro_choice">
+							 <!-- TODO: Populate our select with player options
+							 			For each player, set a new option with a value matching the palyer's id,
+							 			but will display the player's name-->
+											<%
+											if (data) {
+												var cardBody = '';
+												data.forEach(function(item){
+													cardBody +=  "<h5 card-title id =" +item.id +">" +item.kind + "</h5>";
+												}); %>
+											<%- cardBody %>
+											<% } %>
+						</div>
+					</div>
+	</div>
+ 
+<% include ../partials/footer %>

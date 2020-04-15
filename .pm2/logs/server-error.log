@@ -1,0 +1,1591 @@
+ReferenceError: /root/alphaMicro/alphaMicro/views/pages/home.ejs:20
+    18| 							 			For each player, set a new option with a value matching the palyer's id,
+    19| 							 			but will display the player's name-->
+ >> 20| 											<%
+    21| 											if (data) {
+    22| 												var cardBody = '';
+    23| 												data.forEach(function(item){
+
+data is not defined
+    at eval (eval at compile (/root/alphaMicro/alphaMicro/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:48:12)
+    at returnedFn (/root/alphaMicro/alphaMicro/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/alphaMicro/alphaMicro/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/alphaMicro/alphaMicro/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/alphaMicro/alphaMicro/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/alphaMicro/alphaMicro/node_modules/express/lib/response.js:1008:7)
+    at /root/alphaMicro/alphaMicro/server.js:78:6
+    at Layer.handle [as handle_request] (/root/alphaMicro/alphaMicro/node_modules/express/lib/router/layer.js:95:5)
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/alphaMicro/alphaMicro/server.js:175:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+ReferenceError: /root/alphaMicro/alphaMicro/views/pages/home.ejs:20
+    18| 							 			For each player, set a new option with a value matching the palyer's id,
+    19| 							 			but will display the player's name-->
+ >> 20| 											<%
+    21| 											if (data) {
+    22| 												var cardBody = '';
+    23| 												data.forEach(function(item){
+
+data is not defined
+    at eval (eval at compile (/root/alphaMicro/alphaMicro/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:48:12)
+    at returnedFn (/root/alphaMicro/alphaMicro/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/alphaMicro/alphaMicro/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/alphaMicro/alphaMicro/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/alphaMicro/alphaMicro/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/alphaMicro/alphaMicro/node_modules/express/lib/response.js:1008:7)
+    at /root/alphaMicro/alphaMicro/server.js:78:6
+    at Layer.handle [as handle_request] (/root/alphaMicro/alphaMicro/node_modules/express/lib/router/layer.js:95:5)
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at Server.listen (net.js:1395:7)
+    at Function.listen (/root/labs/3/MicroCite/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:314:5)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+ReferenceError: /root/alphaMicro/alphaMicro/views/pages/home.ejs:20
+    18| 							 			For each player, set a new option with a value matching the palyer's id,
+    19| 							 			but will display the player's name-->
+ >> 20| 											<%
+    21| 											if (data) {
+    22| 												var cardBody = '';
+    23| 												data.forEach(function(item){
+
+data is not defined
+    at eval (eval at compile (/root/alphaMicro/alphaMicro/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:48:12)
+    at returnedFn (/root/alphaMicro/alphaMicro/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/alphaMicro/alphaMicro/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/alphaMicro/alphaMicro/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/alphaMicro/alphaMicro/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/alphaMicro/alphaMicro/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/alphaMicro/alphaMicro/node_modules/express/lib/response.js:1008:7)
+    at /root/alphaMicro/alphaMicro/server.js:78:6
+    at Layer.handle [as handle_request] (/root/alphaMicro/alphaMicro/node_modules/express/lib/router/layer.js:95:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:145:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:154:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:154:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:154:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:154:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:154:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:154:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:154:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: response is not defined
+    at /root/labs/3/MicroCite/server.js:154:13
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: /root/labs/3/MicroCite/views/pages/home.ejs:24
+    22|     <div class="heading">
+    23|         <h2 id="testsub" style="text-align: left;">Hello</h2>
+ >> 24|             <%
+    25|             if (rows) {
+    26|                 let content = '';
+    27|                 rows.forEach(function(user){
+
+rows is not defined
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:36:13)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:143:17
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: /root/labs/3/MicroCite/views/pages/home.ejs:24
+    22|     <div class="heading">
+    23|         <h2 id="testsub" style="text-align: left;">Hello</h2>
+ >> 24|             <%
+    25|             if (row) {
+    26|                 let content = '';
+    27|                 row.forEach(function(user){
+
+row is not defined
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:36:13)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:143:17
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+ReferenceError: /root/labs/3/MicroCite/views/pages/home.ejs:24
+    22|     <div class="heading">
+    23|         <h2 id="testsub" style="text-align: left;">Hello</h2>
+ >> 24|             <%
+    25|             if (data) {
+    26|                 let content = '';
+    27|                 data.forEach(function(user){
+
+data is not defined
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:36:13)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:86:6
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
