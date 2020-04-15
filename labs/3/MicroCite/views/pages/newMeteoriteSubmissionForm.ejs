@@ -18,17 +18,29 @@
 		<div class="top-menu"></div>
       	<div class = "container">
       		<form>	
-      			<h1>New Micro-Meteorite Submission!</h1>
+				  <h1>New Micro-Meteorite Submission!</h1>
+				  <hr>
       			<div class ="form-group">
-      				<label for="newInterest">Location:</label>
+      				<label for="newInterest">Location of found micrometeorite: </label>
       				<br>	
-      				<input type="text" name="Name" placeholder="Name">
-      			</div>
-
+					  <input type="text" name="lat_location" placeholder="Latitude">
+					  <input type="text" name="long_location" placeholder="Longitude">
+					  <a href="https://www.latlong.net/" target="_blank">Find it here</a>
+				  </div>
+				  <div class ="form-group">
+					<label for="composition">Rock Composition:</label>
+					<br>	
+					<input type="text" name="composition" placeholder="Rock Composition">
+				</div>
+				<div class ="form-group">
+					<label for="size">Size of Rock:</label>
+					<br>	
+					<input type="text" name="size" placeholder="Rock size">
+				</div>
       			<div class ="form-group">
       				<label for="newInterest">Description:</label>
       				<br>	
-      				<input class="form-control input-lg" id="inputlg" type = "text" name="Name" style="height:150px">
+      				<input class="form-control input-lg" id="input" type = "text" name="Name" style="height:150px" placeholder="Any other info you'd like to add!">
       			</div>
 
 
@@ -36,8 +48,8 @@
       				<div class = "col-md-5">
       					<div class="container mt-3">
   							<form action="/action_page.php">    
-    							<p>Upload Local Image:</p>
-    							<input type="file" id="myFile" name="filename2">
+    							<p>Image of the Micrometeorite:</p>
+    							<input type="file" accept="image/*" id="microImage" name="filename2">
   							</form>
 						</div>
       				</div>
