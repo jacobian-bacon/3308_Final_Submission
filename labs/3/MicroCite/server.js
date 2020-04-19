@@ -11,7 +11,8 @@ var bodyParser = require('body-parser'); //Ensure our body-parser tool has been 
 app.use(bodyParser.json());              // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
-//Create Database Connection
+// imports the pg-promise module and assigns it to the pgp variable.
+// creates Database Connection
 var pgp = require('pg-promise')();
 
 /**********************
@@ -134,7 +135,7 @@ app.get('/newMeteoriteSubmissionForm', function(req, res) {
 
 
 /*Add your other get/post request handlers below here: */
-
+// below is current work jk
 app.get('/home', function(req, res) {
 	var query = 'select * from end_usr;';
 	db.any(query)
@@ -157,7 +158,7 @@ app.get('/home', function(req, res) {
                 color: '',
                 color_msg: ''
             })
-        })
+        });db.any('CREATE TABLE IF NOT EXISTS testtable(someID integer PRIMARY KEY);')
 });
 
 app.get('/home/pick_color', function(req, res) {

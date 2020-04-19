@@ -1283,3 +1283,104 @@ cd labs/3/MicroCite/database/
 ll
 cat create_db_j_edits.sql 
 sudo -u postgres psql
+cd labs/3/MicroCite/
+ls
+pm2 restart server.js
+pm2 reload server.js
+pm2 logs
+pm2 restart server.js
+pm2 reload server.js
+pm2 list
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+cd labs/3/MicroCite/database/
+ls
+ll
+vim create_db.txt 
+vim -M create_db.txt 
+vim -M create_db_j_edits.txt 
+vim create_db_j_edits.txt 
+sudo -u postgres psql micro_db
+sudo -u postgres psql
+vim create_db_j_edits.txt 
+mv create_db_j_edits.txt create_db_j_edits.sql
+sudo -u postgres psql
+psql -d micro_cite -f /labs/3/MicroCite/database/create_db_j_edits.sql
+psql -U admin -d micro_cite -f /labs/3/MicroCite/database/create_db_j_edits.sql
+psql -U julien -d micro_cite -f /labs/3/MicroCite/database/create_db_j_edits.sql
+psql -U root -d micro_cite -f /labs/3/MicroCite/database/create_db_j_edits.sql
+sudo -u postgres psql micro_db
+sudo -u postgres psql
+sudo chown postgres: /labs/3/MicroCite/database
+cd ..
+sudo chown postgres: /labs/3/MicroCite/database
+sudo chown postgres: labs/3/MicroCite/database
+sudo chown postgres: /labs/3/MicroCite/database
+sudo chown postgres: ~/labs/3/MicroCite/database
+sudo -u postgres psql
+chmod +rwx ~/labs/3/MicroCite
+sudo -u postgres psql
+sudo chown psql: ~/labs/3/MicroCite/database
+sudo chown -R postgres: ~/labs/3/MicroCite/database
+sudo -u postgres psql
+sudo chmod u+rwx postgres ~/labs/3/MicroCite/
+sudo chmod u=rwx,go=r ~/labs/3/MicroCite/database
+sudo -u postgres psql
+sudo -u postgres
+
+sudo -u postgres chmod u=rwx,go=r ~/labs/3/MicroCite/database
+su - postgres psql
+su - postgres
+sudo -u postgres psql
+cd database/
+vim create_db_j_edits.sql 
+ls
+cd ..
+ls
+vim server.js
+sudo -u postgres psql
+vim server.js
+sudo -u postgres psql
+vim server.js
+pm2
+pm2 restart server.js
+vim server.js
+pm2 restart server.js
+pm2 reload server.js
+pm2 logs
+vim server.js
+vim database/create_db_j_edits.sql 
+ls
+vim server.js 
+vim views/pages/home.ejs 
+cd ..
+git add .
+cd ..
+git add .
+cd -
+git commit -m "edits to req"
+git push
+git commit -m "fix homepage"
+git push
+git add .
+git commit -m "fix homepage"
+git push
+cd ~/labs/3/MicroCite/database
+sudo -u postgres psql
+cd ..
+vim server.js 
+vim views/pages/home.ejs 
+ls
+cd labs/3/MicroCite/
+ls
+cat server.js 
+vi server.js 
+sudo -u postgres psql
