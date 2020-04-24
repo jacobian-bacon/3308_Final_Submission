@@ -202,6 +202,31 @@ app.post('/login/submit', function(req, res) {
     var passwordField = req.body.passwordField;
     console.log(usernameField);
     console.log(passwordField);
+    var okField = 'ok';
+    var get_users = "SELECT * FROM end_usr;"
+    db.task('get-everything',task => {
+        return task.batch([
+            task.any(get_users)
+        ]);
+    })
+    .then(info => {
+        console.log(info);
+        console.log(info.name);
+        console.log(usernameField);
+        if (info.name == usernameField){
+            res.render('pages/home');
+        }
+        else{
+            res.render('pages/login',{
+                data: okField
+            })
+        }
+    })
+    .catch(err => {
+        console.log('login error',err);
+        res.render('pages/login', {
+            title: 'login Page'})
+    });
 }); 
 
 app.post('/newMeteoriteSubmissionForm/submit', function(req, res) {

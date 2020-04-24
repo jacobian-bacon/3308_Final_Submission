@@ -27,6 +27,25 @@
 </style>
 </head>
 <body>
+<div class="heading">
+    <%
+    if (locals.data) {
+        var okLogin = '';
+        data = [data,data];
+        data.forEach(function(item){
+            if (item == "ok"){
+                if (okLogin == ''){ 
+                    okLogin+= "login success";
+                }
+            }
+            else{
+                okLogin+= "bad login request";
+            }
+        }); %>
+    <%- okLogin %>
+    <% } %>
+</div>
+    
 <div class="login-form">
     <form action="/login/submit" method="post">
         <h2 class="text-center">Log in Test</h2>       

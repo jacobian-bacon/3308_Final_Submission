@@ -1490,3 +1490,44 @@ vim views/pages/newMeteoriteSubmissionForm.ejs
 vim server.js 
 pm2 reload server.js
 vim server.js 
+git push origin simonsversion
+git add .
+git commit -m
+git commit -m "Juliens node server changes"
+git push origin simonsversion
+wget https://github.com/alexanderulanch/MicrometeorCite/blob/newEdits/labs/3/MicroCite/MicroCite.zip
+ls
+unzip -q MicroCite.zip 
+sudo apt-get install unzip
+unzip -q MicroCite.zip 
+unzip -q MicroCite
+unzip MicroCite.zip
+unzip MicroCite
+ls
+unzip MicroCite.zip 
+sudo unzip -q MicroCite.zip 
+7z e archive.zip
+apt install p7zip-full
+7z e archive.zip
+ls
+rm -r MicroCite.zip 
+wget https://github.com/alexanderulanch/MicrometeorCite/raw/newEdits/labs/3/MicroCite/MicroCite.zip
+unzip -q MicroCite.zip 
+ls
+mkdir jacksons_changes
+mv MicroCite.zip MicroCite jacksons_changes/
+ls
+cd jacksons_changes/
+ls
+cd MicroCite/
+ls
+cd views/
+ls
+cd pa
+cd pages/
+ls
+cat Gallery.ejs
+cd ..
+ls
+cd ..
+ls
