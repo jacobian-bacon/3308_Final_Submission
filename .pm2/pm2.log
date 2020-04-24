@@ -962,3 +962,283 @@
 2020-04-19T22:10:58: PM2 log: pid=31476 msg=process killed
 2020-04-19T22:10:58: PM2 log: App [server:1] starting in -fork mode-
 2020-04-19T22:10:58: PM2 log: App [server:1] online
+2020-04-19T23:00:28: PM2 log: Process 1 in a stopped status, starting it
+2020-04-19T23:00:28: PM2 log: Stopping app:server id:1
+2020-04-19T23:00:28: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-04-19T23:00:28: PM2 log: pid=31642 msg=process killed
+2020-04-19T23:00:28: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:28: PM2 log: App [server:1] online
+2020-04-19T23:00:28: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:28: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:28: PM2 log: App [server:1] online
+2020-04-19T23:00:29: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:29: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:29: PM2 log: App [server:1] online
+2020-04-19T23:00:29: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:29: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:29: PM2 log: App [server:1] online
+2020-04-19T23:00:29: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:29: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:29: PM2 log: App [server:1] online
+2020-04-19T23:00:29: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:29: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:29: PM2 log: App [server:1] online
+2020-04-19T23:00:30: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:30: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:30: PM2 log: App [server:1] online
+2020-04-19T23:00:30: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:30: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:30: PM2 log: App [server:1] online
+2020-04-19T23:00:30: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:30: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:30: PM2 log: App [server:1] online
+2020-04-19T23:00:31: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:31: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:31: PM2 log: App [server:1] online
+2020-04-19T23:00:31: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:31: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:31: PM2 log: App [server:1] online
+2020-04-19T23:00:31: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:31: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:31: PM2 log: App [server:1] online
+2020-04-19T23:00:31: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:31: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:31: PM2 log: App [server:1] online
+2020-04-19T23:00:32: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:32: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:32: PM2 log: App [server:1] online
+2020-04-19T23:00:32: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:32: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:32: PM2 log: App [server:1] online
+2020-04-19T23:00:32: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:32: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:00:32: PM2 log: App [server:1] online
+2020-04-19T23:00:32: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:00:32: PM2 log: Script /root/labs/3/MicroCite/server.js had too many unstable restarts (16). Stopped. "errored"
+2020-04-19T23:01:16: PM2 log: Process 1 in a stopped status, starting it
+2020-04-19T23:01:16: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:16: PM2 log: App [server:1] online
+2020-04-19T23:01:16: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:16: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:16: PM2 log: App [server:1] online
+2020-04-19T23:01:17: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:17: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:17: PM2 log: App [server:1] online
+2020-04-19T23:01:17: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:17: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:17: PM2 log: App [server:1] online
+2020-04-19T23:01:18: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:18: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:18: PM2 log: App [server:1] online
+2020-04-19T23:01:18: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:18: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:18: PM2 log: App [server:1] online
+2020-04-19T23:01:19: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:19: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:19: PM2 log: App [server:1] online
+2020-04-19T23:01:19: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:19: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:19: PM2 log: App [server:1] online
+2020-04-19T23:01:20: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:20: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:20: PM2 log: App [server:1] online
+2020-04-19T23:01:20: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:20: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:20: PM2 log: App [server:1] online
+2020-04-19T23:01:21: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:21: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:21: PM2 log: App [server:1] online
+2020-04-19T23:01:21: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:21: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:21: PM2 log: App [server:1] online
+2020-04-19T23:01:22: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:22: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:22: PM2 log: App [server:1] online
+2020-04-19T23:01:22: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:22: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:22: PM2 log: App [server:1] online
+2020-04-19T23:01:23: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:23: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:23: PM2 log: App [server:1] online
+2020-04-19T23:01:23: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:23: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:23: PM2 log: App [server:1] online
+2020-04-19T23:01:24: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:24: PM2 log: Script /root/labs/3/MicroCite/server.js had too many unstable restarts (16). Stopped. "errored"
+2020-04-19T23:01:49: PM2 log: Process 1 in a stopped status, starting it
+2020-04-19T23:01:49: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:49: PM2 log: App [server:1] online
+2020-04-19T23:01:49: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:49: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:49: PM2 log: App [server:1] online
+2020-04-19T23:01:50: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:50: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:50: PM2 log: App [server:1] online
+2020-04-19T23:01:50: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:50: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:50: PM2 log: App [server:1] online
+2020-04-19T23:01:51: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:51: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:51: PM2 log: App [server:1] online
+2020-04-19T23:01:51: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:51: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:51: PM2 log: App [server:1] online
+2020-04-19T23:01:52: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:52: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:52: PM2 log: App [server:1] online
+2020-04-19T23:01:52: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:52: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:52: PM2 log: App [server:1] online
+2020-04-19T23:01:53: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:53: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:53: PM2 log: App [server:1] online
+2020-04-19T23:01:53: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:53: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:53: PM2 log: App [server:1] online
+2020-04-19T23:01:54: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:54: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:54: PM2 log: App [server:1] online
+2020-04-19T23:01:54: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:54: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:54: PM2 log: App [server:1] online
+2020-04-19T23:01:55: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:55: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:55: PM2 log: App [server:1] online
+2020-04-19T23:01:55: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:55: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:55: PM2 log: App [server:1] online
+2020-04-19T23:01:56: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:56: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:56: PM2 log: App [server:1] online
+2020-04-19T23:01:56: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:56: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:01:56: PM2 log: App [server:1] online
+2020-04-19T23:01:57: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-19T23:01:57: PM2 log: Script /root/labs/3/MicroCite/server.js had too many unstable restarts (16). Stopped. "errored"
+2020-04-19T23:05:04: PM2 log: Process 1 in a stopped status, starting it
+2020-04-19T23:05:04: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:05:04: PM2 log: App [server:1] online
+2020-04-19T23:06:43: PM2 log: Process 1 in a stopped status, starting it
+2020-04-19T23:06:43: PM2 log: Stopping app:server id:1
+2020-04-19T23:06:43: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-04-19T23:06:43: PM2 log: pid=1689 msg=process killed
+2020-04-19T23:06:43: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:06:43: PM2 log: App [server:1] online
+2020-04-19T23:07:37: PM2 log: Process 1 in a stopped status, starting it
+2020-04-19T23:07:37: PM2 log: Stopping app:server id:1
+2020-04-19T23:07:37: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-04-19T23:07:37: PM2 log: pid=1768 msg=process killed
+2020-04-19T23:07:37: PM2 log: App [server:1] starting in -fork mode-
+2020-04-19T23:07:37: PM2 log: App [server:1] online
+2020-04-20T19:53:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2020-04-20T19:53:32: PM2 log: [PM2] Upgrade to version 4.3.1
+2020-04-21T19:53:33: PM2 log: [PM2] This PM2 is not UP TO DATE
+2020-04-21T19:53:33: PM2 log: [PM2] Upgrade to version 4.3.1
+2020-04-22T19:53:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2020-04-22T19:53:32: PM2 log: [PM2] Upgrade to version 4.3.1
+2020-04-23T19:53:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2020-04-23T19:53:32: PM2 log: [PM2] Upgrade to version 4.3.1
+2020-04-23T22:21:53: PM2 log: Process 1 in a stopped status, starting it
+2020-04-23T22:21:53: PM2 log: Stopping app:server id:1
+2020-04-23T22:21:53: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-04-23T22:21:54: PM2 log: pid=1830 msg=process killed
+2020-04-23T22:21:54: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T22:21:54: PM2 log: App [server:1] online
+2020-04-23T22:28:59: PM2 log: Process 1 in a stopped status, starting it
+2020-04-23T22:28:59: PM2 log: Stopping app:server id:1
+2020-04-23T22:28:59: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-04-23T22:28:59: PM2 log: pid=30080 msg=process killed
+2020-04-23T22:28:59: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T22:28:59: PM2 log: App [server:1] online
+2020-04-23T22:39:40: PM2 log: Process 1 in a stopped status, starting it
+2020-04-23T22:39:40: PM2 log: Stopping app:server id:1
+2020-04-23T22:39:40: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-04-23T22:39:40: PM2 log: pid=30246 msg=process killed
+2020-04-23T22:39:40: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T22:39:40: PM2 log: App [server:1] online
+2020-04-23T22:40:58: PM2 log: Process 1 in a stopped status, starting it
+2020-04-23T22:40:58: PM2 log: Stopping app:server id:1
+2020-04-23T22:40:58: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-04-23T22:40:58: PM2 log: pid=30407 msg=process killed
+2020-04-23T22:40:58: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T22:40:58: PM2 log: App [server:1] online
+2020-04-23T22:41:59: PM2 log: Process 1 in a stopped status, starting it
+2020-04-23T22:41:59: PM2 log: Stopping app:server id:1
+2020-04-23T22:41:59: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-04-23T22:41:59: PM2 log: pid=30475 msg=process killed
+2020-04-23T22:41:59: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T22:41:59: PM2 log: App [server:1] online
+2020-04-23T23:10:07: PM2 log: Process 1 in a stopped status, starting it
+2020-04-23T23:10:07: PM2 log: Stopping app:server id:1
+2020-04-23T23:10:07: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-04-23T23:10:07: PM2 log: pid=30531 msg=process killed
+2020-04-23T23:10:07: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:07: PM2 log: App [server:1] online
+2020-04-23T23:10:07: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:07: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:07: PM2 log: App [server:1] online
+2020-04-23T23:10:07: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:07: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:07: PM2 log: App [server:1] online
+2020-04-23T23:10:08: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:08: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:08: PM2 log: App [server:1] online
+2020-04-23T23:10:08: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:08: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:08: PM2 log: App [server:1] online
+2020-04-23T23:10:08: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:08: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:08: PM2 log: App [server:1] online
+2020-04-23T23:10:09: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:09: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:09: PM2 log: App [server:1] online
+2020-04-23T23:10:09: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:09: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:09: PM2 log: App [server:1] online
+2020-04-23T23:10:09: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:09: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:09: PM2 log: App [server:1] online
+2020-04-23T23:10:10: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:10: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:10: PM2 log: App [server:1] online
+2020-04-23T23:10:10: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:10: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:10: PM2 log: App [server:1] online
+2020-04-23T23:10:10: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:10: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:10: PM2 log: App [server:1] online
+2020-04-23T23:10:11: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:11: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:11: PM2 log: App [server:1] online
+2020-04-23T23:10:11: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:11: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:11: PM2 log: App [server:1] online
+2020-04-23T23:10:11: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:11: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:11: PM2 log: App [server:1] online
+2020-04-23T23:10:12: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:12: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:10:12: PM2 log: App [server:1] online
+2020-04-23T23:10:12: PM2 log: App [server:1] exited with code [1] via signal [SIGINT]
+2020-04-23T23:10:12: PM2 log: Script /root/labs/3/MicroCite/server.js had too many unstable restarts (16). Stopped. "errored"
+2020-04-23T23:11:26: PM2 log: Process 1 in a stopped status, starting it
+2020-04-23T23:11:26: PM2 log: App [server:1] starting in -fork mode-
+2020-04-23T23:11:26: PM2 log: App [server:1] online
+2020-04-24T03:57:01: PM2 log: Process 1 in a stopped status, starting it
+2020-04-24T03:57:01: PM2 log: Stopping app:server id:1
+2020-04-24T03:57:01: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-04-24T03:57:01: PM2 log: pid=31300 msg=process killed
+2020-04-24T03:57:01: PM2 log: App [server:1] starting in -fork mode-
+2020-04-24T03:57:01: PM2 log: App [server:1] online
+2020-04-24T14:33:31: PM2 log: Process 1 in a stopped status, starting it
+2020-04-24T14:33:31: PM2 log: Stopping app:server id:1
+2020-04-24T14:33:31: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-04-24T14:33:31: PM2 log: pid=3709 msg=process killed
+2020-04-24T14:33:31: PM2 log: App [server:1] starting in -fork mode-
+2020-04-24T14:33:31: PM2 log: App [server:1] online
+2020-04-24T14:34:38: PM2 log: Process 1 in a stopped status, starting it
+2020-04-24T14:34:38: PM2 log: Stopping app:server id:1
+2020-04-24T14:34:38: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-04-24T14:34:38: PM2 log: pid=13144 msg=process killed
+2020-04-24T14:34:38: PM2 log: App [server:1] starting in -fork mode-
+2020-04-24T14:34:38: PM2 log: App [server:1] online

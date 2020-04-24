@@ -2266,3 +2266,873 @@ Or, if you meant to create an async function, pass async: true as an option.
     at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
     at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
     at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:336
+console.log('8080 is the magic port');
+                                     ^
+
+SyntaxError: Unexpected end of input
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:20)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: urlencodedParser is not defined
+    at Object.<anonymous> (/root/labs/3/MicroCite/server.js:194:25)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+ReferenceError: /root/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs:106
+    104| 
+    105|         <form action="/newMeteoriteSubmissionForm/submit" method="get">
+ >> 106|             <%
+    107|             formToRemove = document.getElementById("test_form");
+    108|             formContainer = formToRemove.parentNode;
+    109|             formContainer.removeChild(formToRemove);
+
+document is not defined
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:36:13)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:130:6
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:168
+}
+^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+ReferenceError: /root/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs:106
+    104| 
+    105|         <form action="/newMeteoriteSubmissionForm/submit" method="get">
+ >> 106|             <%
+    107|             formToRemove = document.getElementById("test_form");
+    108|             formContainer = formToRemove.parentNode;
+    109|             formContainer.removeChild(formToRemove);
+
+document is not defined
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:36:13)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:130:6
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)

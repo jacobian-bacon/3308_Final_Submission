@@ -88,7 +88,20 @@
 
 
       		</form>
-      		
+      	 <form action="/newMeteoriteSubmissionForm/submit" id='test_form' method="post">
+              <div class="form-group row">
+                <label for="meteor_type">meteor type</label>
+        <input type="text" class="form-control" name="meteor_type" id="meteor_type" aria-describedby="metHelp"
+          placeholder="Enter Meteor Type">
+      </div>
+      <div class="form-group row">
+        <label for="metLocation">location</label>
+        <input type="text" class="form-control" name="metLocation" id="metLocation" aria-describedby="locHelp" placeholder="Enter location">
+      </div>
+      <button type="submit"  class="btn btn-primary">Update table</button>
+    </form>
+        
+	
       	</div>
 		<script>$(".top-menu").load("menu.html");</script>
 <% include ../partials/footer %>

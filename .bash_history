@@ -1384,3 +1384,109 @@ ls
 cat server.js 
 vi server.js 
 sudo -u postgres psql
+ls
+cd labs/3/MicroCite/
+ls
+cd views
+ls
+cd pages/
+ls
+cd..
+cd ..
+vim worldMap.ejs 
+cd pages/
+vim home.ejs 
+cd ..
+vim server.js 
+vim views/pages/home.ejs 
+vim server.js 
+exit
+pm2 restart
+pm2 refresh
+pm2 restart server.js
+cd labs/3/MicroCite/
+pm2 restart server.js
+pm2 refresh server.js
+pm2 reload server.js
+cd ..
+git add .
+git commit -m "work on client to db update"
+git push
+cd labs/3/MicroCite/
+
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+exit
+cd labs/3/MicroCite/
+ls
+vim views/pages/home.ejs 
+vim server.js 
+sudo -u postgres psql
+exit
+cd labs/3/MicroCite/
+vim views/pages/home.ejs 
+:q
+exit
+ls
+sudo -u postgres psql
+cd labs/3/MicroCite/
+ls
+cd server.js
+vi server.js
+cd labs/3/MicroCite/
+pm2 logs
+pm2 reload server.js 
+pm2 logs
+pm2 reload server.js 
+pm2 logs
+pm2 reload server.js 
+pm2 logs
+pm2 reload server.js 
+pm2 logs
+pm2 reload server.js 
+pm2 logs
+pm2 reload server.js 
+pm2 logs
+pm2 reload server.js 
+pm2 logs
+cd ..
+cd -
+cd labs/3/MicroCite/
+sudo -u postgres psql
+cd labs/3/MicroCite/views/
+ls
+cd pages/
+ls
+vim newMeteoriteSubmissionForm.ejs 
+vim home.ejs 
+vim newMeteoriteSubmissionForm.ejs 
+vim home.ejs 
+vim newMeteoriteSubmissionForm.ejs 
+vim home.ejs 
+vim newMeteoriteSubmissionForm.ejs 
+cd labs/3/MicroCite/
+vim server.js 
+cd labs/3/MicroCite/
+pm2 logs
+cd labs/3/MicroCite/
+cd views/pages/
+ls
+vim login.ejs
+cd labs/3/MicroCite/
+sudo -u postgres psql
+vim server.js 
+vim views/pages/home.ejs 
+vim views/pages/newMeteoriteSubmissionForm.ejs 
+vim server.js 
+pm2 reload server.js
+vim server.js 

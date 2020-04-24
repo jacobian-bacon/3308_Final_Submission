@@ -161,6 +161,11 @@ app.get('/home', function(req, res) {
         });db.any('CREATE TABLE IF NOT EXISTS testtable(someID integer PRIMARY KEY);')
 });
 
+app.get('/newMeteoriteSubmissionForm/submit', function(req, res) {
+    res.render('pages/newMeteoriteSubmissionForm',{
+         my_title:"Submit Meteorite"
+     });
+});
 app.get('/home/pick_color', function(req, res) {
 	var color_choice = req.query.color_selection;
 	var color_options =  'select * from favorite_colors;';
@@ -192,6 +197,26 @@ app.get('/home/pick_color', function(req, res) {
 
 });
 
+app.post('/login/submit', function(req, res) {
+    var usernameField = req.body.usernameField;
+    var passwordField = req.body.passwordField;
+    console.log(usernameField);
+    console.log(passwordField);
+}); 
+
+app.post('/newMeteoriteSubmissionForm/submit', function(req, res) {
+    var meteor_type = req.body.meteor_type;
+    console.log(meteor_type);
+    console.log(req.body);
+//    con.connect(function(err) {
+//  if (err) throw  err;
+//  console.log("connected");
+//  var sql = "INSERT INTO `form`(`name`,`email`, `description`) VALUES ('"+req.body.name+"','"+req.body.email+"','"+req.body.description+"')";
+//  con.query(sql, function(err, result)  {
+//   if(err) throw err;
+//   console.log("table created");
+//  });
+});
 app.post('/home/pick_color', function(req, res) {
 	var color_hex = req.body.color_hex;
 	var color_name = req.body.color_name;
