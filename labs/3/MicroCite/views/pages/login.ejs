@@ -39,7 +39,9 @@
                 }
             }
             else{
-                okLogin+= "bad login request";
+                if (okLogin == ''){ 
+                     okLogin+= "invalid login credentials";
+                }
             }
         }); %>
     <%- okLogin %>

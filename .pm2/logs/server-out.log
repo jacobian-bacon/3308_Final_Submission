@@ -2290,3 +2290,686 @@ dsf
 undefined
 testusertesty
 8080 is the magic port
+8080 is the magic port
+hello
+8080 is the magic port
+8080 is the magic port
+testusertesty
+sdf
+[ [ { end_usr_id: 1,
+      name: 'testusertesty',
+      email: 'test@test.test',
+      active: true,
+      end_usrname: 'tstusrnm',
+      password: 'psswrd123',
+      last_access: '04:05:06',
+      profile_img: null } ] ]
+undefined
+testusertesty
+sdf
+sdfsfd
+[ [ { end_usr_id: 1,
+      name: 'testusertesty',
+      email: 'test@test.test',
+      active: true,
+      end_usrname: 'tstusrnm',
+      password: 'psswrd123',
+      last_access: '04:05:06',
+      profile_img: null } ] ]
+undefined
+sdf
+testusertesty
+sdf
+[ [ { end_usr_id: 1,
+      name: 'testusertesty',
+      email: 'test@test.test',
+      active: true,
+      end_usrname: 'tstusrnm',
+      password: 'psswrd123',
+      last_access: '04:05:06',
+      profile_img: null } ] ]
+undefined
+testusertesty
+8080 is the magic port
+sdfsdf
+sdf
+[ [ { end_usr_id: 1,
+      name: 'testusertesty',
+      email: 'test@test.test',
+      active: true,
+      end_usrname: 'tstusrnm',
+      password: 'psswrd123',
+      last_access: '04:05:06',
+      profile_img: null } ] ]
+undefined
+sdfsdf
+testusertesty
+sdf
+[ [ { end_usr_id: 1,
+      name: 'testusertesty',
+      email: 'test@test.test',
+      active: true,
+      end_usrname: 'tstusrnm',
+      password: 'psswrd123',
+      last_access: '04:05:06',
+      profile_img: null } ] ]
+undefined
+testusertesty
+8080 is the magic port
+testusertesty
+s
+[ [ { end_usr_id: 1,
+      name: 'testusertesty',
+      email: 'test@test.test',
+      active: true,
+      end_usrname: 'tstusrnm',
+      password: 'psswrd123',
+      last_access: '04:05:06',
+      profile_img: null } ] ]
+login error TypeError: Cannot read property 'name' of undefined
+    at db.task.then.info (/root/labs/3/MicroCite/server.js:214:29)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+8080 is the magic port
+sdfss
+sd
+[ [ { end_usr_id: 1,
+      name: 'testusertesty',
+      email: 'test@test.test',
+      active: true,
+      end_usrname: 'tstusrnm',
+      password: 'psswrd123',
+      last_access: '04:05:06',
+      profile_img: null } ] ]
+undefined
+sdfss
+8080 is the magic port
+8080 is the magic port
+dsf
+d
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null } ]
+undefined
+dsf
+8080 is the magic port
+testusertesty
+sdf
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null }
+undefined
+testusertesty
+8080 is the magic port
+sdf
+sdfsdf
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null }
+testusertesty
+sdf
+8080 is the magic port
+sdf
+d
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null }
+testusertesty
+sdf
+testusertesty
+sdf
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null }
+testusertesty
+testusertesty
+sdfsdf
+afasf
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+sdfsdf
+sdfsdf
+dfsdf
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+sdfsdf
+8080 is the magic port
+sdfsdf
+sdfsdf
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+sdfsdf
+sdf
+sdf
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+sdf
+testusertesty
+password
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+sdf
+sdf
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+sdf
+testusertesty
+password
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+sdf
+sdf
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+sdf
+8080 is the magic port
+testusertesty
+sdf
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+8080 is the magic port
+testusertesty
+sdf
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+8080 is the magic port
+testusertesty
+sdf
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null } ]
+8080 is the magic port
+8080 is the magic port
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+loginERror ReferenceError: Crypto is not defined
+    at Promise (/root/labs/3/MicroCite/server.js:220:21)
+    at new Promise (<anonymous>)
+    at db.task.then.info (/root/labs/3/MicroCite/server.js:218:36)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+loginERror ReferenceError: Crypto is not defined
+    at Promise (/root/labs/3/MicroCite/server.js:220:21)
+    at new Promise (<anonymous>)
+    at db.task.then.info (/root/labs/3/MicroCite/server.js:218:36)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+8080 is the magic port
+8080 is the magic port
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+loginERror TypeError: Crypto.getRandomValues is not a function
+    at Promise (/root/labs/3/MicroCite/server.js:220:38)
+    at new Promise (<anonymous>)
+    at db.task.then.info (/root/labs/3/MicroCite/server.js:218:36)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+8080 is the magic port
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+loginERror TypeError [ERR_INVALID_ARG_TYPE]: The "buf" argument must be of type ArrayBufferView. Received type object
+    at Object.randomFillSync (internal/crypto/random.js:65:11)
+    at Promise (/root/labs/3/MicroCite/server.js:220:38)
+    at new Promise (<anonymous>)
+    at db.task.then.info (/root/labs/3/MicroCite/server.js:218:36)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+8080 is the magic port
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+loginERror TypeError: Cannot read property 'toString' of undefined
+    at Promise (/root/labs/3/MicroCite/server.js:220:61)
+    at new Promise (<anonymous>)
+    at db.task.then.info (/root/labs/3/MicroCite/server.js:218:36)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+8080 is the magic port
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null } ]
+8080 is the magic port
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null } ]
+8080 is the magic port
+8080 is the magic port
+{ connection: 'upgrade',
+  host: '142.93.21.74',
+  'cache-control': 'max-age=0',
+  'upgrade-insecure-requests': '1',
+  'user-agent':
+   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36',
+  accept:
+   'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'en-US,en;q=0.9',
+  cookie: 'HashVal=0.8098461222435733' }
+8080 is the magic port
+HashVal=0.8098461222435733
+8080 is the magic port
+0.8098461222435733
+8080 is the magic port
+cookieError ReferenceError: cookie is not defined
+    at /root/labs/3/MicroCite/server.js:93:17
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:87:18
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:275:10)
+8080 is the magic port
+cookieError ReferenceError: cookie is not defined
+    at /root/labs/3/MicroCite/server.js:93:17
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:87:18
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:275:10)
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null } ]
+cookieError ReferenceError: cookie is not defined
+    at /root/labs/3/MicroCite/server.js:93:17
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:87:18
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:275:10)
+8080 is the magic port
+cookieError ReferenceError: cookie is not defined
+    at /root/labs/3/MicroCite/server.js:93:17
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:87:18
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:275:10)
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+cookieError ReferenceError: cookie is not defined
+    at /root/labs/3/MicroCite/server.js:93:17
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:87:18
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:275:10)
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+cookieError ReferenceError: cookie is not defined
+    at /root/labs/3/MicroCite/server.js:93:17
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:87:18
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:275:10)
+8080 is the magic port
+cookieError ReferenceError: cookie is not defined
+    at /root/labs/3/MicroCite/server.js:93:17
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:87:18
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:275:10)
+cookieError ReferenceError: cookie is not defined
+    at /root/labs/3/MicroCite/server.js:93:17
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:87:18
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:275:10)
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+cookieError ReferenceError: cookie is not defined
+    at /root/labs/3/MicroCite/server.js:93:17
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:87:18
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:275:10)
+8080 is the magic port
+cookieError ReferenceError: cookie is not defined
+    at /root/labs/3/MicroCite/server.js:97:25
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:90:41
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:87:18
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:275:10) 'errrror'
+cookieError undefined
+testusertesty
+let cookie =
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null }
+testusertesty
+testusertesty
+cookieError ReferenceError: cookie is not defined
+    at /root/labs/3/MicroCite/server.js:97:25
+8080 is the magic port
+0.12708240640001
+0.12708240640001
+0.12708240640001
+0.12708240640001
+8080 is the magic port
+0.12708240640001
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null } ]

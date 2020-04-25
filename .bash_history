@@ -1531,3 +1531,178 @@ cd ..
 ls
 cd ..
 ls
+history
+cd labs/3/MicroCite/
+ls
+cd ~
+cd labs/3/MicroCite/
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logss
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+cd jacksons_changes/
+ls
+cd MicroCite/
+ls
+cd ~
+history | grep psql
+sudo -u postgres psql
+ls
+cd jacksons_changes/
+ls
+cd MicroCite/
+ls
+cd views/
+ls
+cd pages/
+ls
+cp ~/labs/3/MicroCite/
+cp ~/Desktop/labs/3/MicroCite/
+mv Gallery ~
+mv Gallery.ejs ~/labs/3/MicroCite/
+ls
+cd ..
+ls
+cd pa
+cd partials
+ls
+cd ..
+ls
+cat server.js 
+cd ..
+ls
+sudo -u postgres psql
+history | grep psql
+sudo -u postgres psql
+cd labs/3/MicroCite/
+ls
+vi server.js 
+pm2 status
+pm2 restart 1
+wget https://raw.githubusercontent.com/alexanderulanch/MicrometeorCite/simonsversion/labs/3/MicroCite/server.js
+ls
+ls -l
+mv serverTemp.js
+cat server.js
+ls
+cat server.js.1 
+cat server.js.1 | grep map
+cat server.js.1
+mv server.js server-TempMap.js
+mv server.js.1 server.js
+pm2 start 1
+cat server.js 
+cat server.js | grep "hello"
+vi server.js
+pm2 restart server.js
+ls
+cd views/
+ls
+cd pages/
+ls
+vi home.ejs 
+cd ..
+ls
+cd ..
+ls
+vi server.js
+cd views/
+ls
+cd pa
+cd pages/
+ls
+cat home.ejs | grep hello
+cd ..
+ls
+cd partials/
+ls
+cat menu.ejs 
+ls
+cd header.ejs
+cat header.ejs 
+cd ..
+grep testsub
+ls
+cd views/
+ls
+cd pages/
+ls
+vi home.ejs
+pm2 restart 1
+cd ~
+ls
+\q
+/logout
+sudo -u postgres psql
+ls
+cd labs/3/MicroCite/
+ls
+pm2 reload server.js
+cd labs/3/MicroCite/
+pm2 reload server.js
+cd labs/3/MicroCite/
+vim server.js 
+vim views/pages/login.ejs 
+vim server.js 
+vim views/pages/login.ejs 
+vim server.js 
+micro server.js
+vim server.js 
+cd .. 
+cd ..
+git add .
+git commit -m "edits"
+git push
+cd labs/3/MicroCite/
+vim server.js
+cd labs/3/MicroCite/
+sudo -u postgres psql
+vim views/pages/home.ejs 
+sudo -u postgres psql
+vim views/pages/home.ejs 
+vim views/pages/login.ejs 
+sudo -u postgres psql
+vim views/pages/login.ejs 
+ls
+cd labs/
+ls
+cd 3/MicroCite/
+ls
+cat server.js
+/c
+sudo -u postgres psql

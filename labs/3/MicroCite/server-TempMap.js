@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 // imports the pg-promise module and assigns it to the pgp variable.
 // creates Database Connection
 var pgp = require('pg-promise')();
-var Crypto = require('crypto');
+
 /**********************
   Database Connection information
   host: This defines the ip address of the server hosting our database.  We'll be using localhost and run our database on our local machine (i.e. can't be access via the Internet)
@@ -83,38 +83,11 @@ app.use(express.static(__dirname + '/'));//This line is necessary for us to use 
 
 // home page
 app.get('/', function(req, res) {
-    //console.log('hello');
-    let cookie = 'badCookie';
-    let okLoad = new Promise(function(resolve, reject) {
-        try {
-            cookie = req.headers.cookie.split("=")[1];
-        } catch(msg) {
-            reject(console.log(msg, "errrror"));
-        }
-        resolve(cookie);
-    }); okLoad.then(function (okLoad) {
-            
-            console.log(cookie);
-            db.any('SELECT * FROM end_usr;')
-            .then(function (rows) {
-                console.log(rows); 
-                })
-            .catch(function (err) {
-            // display error message in case an error
-            });
-            if (cookie){
-	            res.render('pages/home',{
-		            local_css:"signin.css", 
-		            my_title:"Login Page"
-	            });
-            }
-            }).catch(function(reason) {
-                console.log("cookieError", reason);
-                res.render('pages/login',{
-                    local_css:"signin.css", 
-                    my_title:"Login Page"
-            });  
-        });
+    console.log('hello');
+	res.render('pages/home',{
+		local_css:"signin.css", 
+		my_title:"Login Page"
+	});
 });
 
 // registration page 
@@ -133,6 +106,15 @@ app.get('/login', function(req, res) {
 
 // map page 
 app.get('/worldMap', function(req, res) {
+    var coords = 'select * from rock_attributes;';
+    //var two = 'select id, name from football_players;'
+    db.task('get-everything', task => {
+        return task.batch([
+            task.any(query),
+            //task.any(two)
+        ]);
+    })
+    .then(rows=>{
 	res.render('pages/worldMap',{
 		my_title:"World Map"
 	});
@@ -193,43 +175,13 @@ app.get('/newMeteoriteSubmissionForm/submit', function(req, res) {
          my_title:"Submit Meteorite"
      });
 });
-app.get('/home/pick_color', function(req, res) {
-	var color_choice = req.query.color_selection;
-	var color_options =  'select * from favorite_colors;';
-	var color_message = "select color_msg from favorite_colors where hex_value = '" + color_choice + "';";
-	db.task('get-everything', task => {
-        return task.batch([
-            task.any(color_options),
-            task.any(color_message)
-        ]);
-    })
-    .then(info => {
-    	res.render('pages/home',{
-				my_title: "Home Page",
-				data: info[0],
-				color: color_choice,
-				color_msg: info[1][0].color_msg
-			})
-    })
-    .catch(err => {
-        // display error message in case an error
-            console.log('error', err);
-            response.render('pages/home', {
-                title: 'Home Page',
-                data: '',
-                color: '',
-                color_msg: ''
-            })
-    });
-
-});
 
 app.post('/login/submit', function(req, res) {
     var usernameField = req.body.usernameField;
     var passwordField = req.body.passwordField;
     console.log(usernameField);
     console.log(passwordField);
-    var okField = 'bad';
+    var okField = 'ok';
     var get_users = "SELECT * FROM end_usr;"
     db.task('get-everything',task => {
         return task.batch([
@@ -237,27 +189,11 @@ app.post('/login/submit', function(req, res) {
         ]);
     })
     .then(info => {
-        console.log(info[0][0]);
-        console.log(info[0][0].name);
+        console.log(info);
+        console.log(info.name);
         console.log(usernameField);
-        if (info[0][0].name == usernameField){
-            if(info[0][0].password == passwordField){
-                let loginPromise = new Promise((resolve, reject) => {
-                    HashVal = Math.random();
-                    resolve(res.cookie('HashVal',HashVal));
-                    }); loginPromise.then(function (loginPromise){
-                        res.redirect('/');
-
-                    }).catch(function (reason) {
-                        console.log("loginERror",reason);
-                    });
-
-            }
-            else{
-                res.render('pages/login',{
-                    data: okField
-                })
-            }
+        if (info.name == usernameField){
+            res.render('pages/home');
         }
         else{
             res.render('pages/login',{
