@@ -132,12 +132,33 @@ app.get('/', function(req, res) {
             }
             else {
                 console.log("loginhelper error", bsPromise);
+                res.render('pages/home', {
+                    local_css: "signin.css",
+                    my_title: "Login Page"
+                });
+            }
+        }); 
+    /*
+    var bsPromise = new Promise(function(resolve, reject) {
+        let okChk = logInOKCheck(req, res); 
+        resolve(okChk);
+    }); bsPromise.then(function (bsPromise){
+            if(bsPromise[0] === true) {
+                res.render('pages/home', {
+                    data: bsPromise[1],
+                    local_css: "signin.css",
+                    my_title: "Login Page"
+                });
+            }
+            else {
+                console.log("loginhelper error", bsPromise);
                 res.render('pages/login', {
                     local_css: "signin.css",
                     my_title: "Login Page"
                 });
             }
         }); 
+    */  
 });
 
 // registration page 
@@ -170,8 +191,9 @@ app.get('/Gallery', function(req, res) {
         let okChk = logInOKCheck(req, res); 
         resolve(okChk);
     }); bsPromise.then(function (bsPromise){
-            if(bsPromise) {
+            if(bsPromise[0] === true) {
                 res.render('pages/Gallery', {
+                    data: bsPromise[1],
                     local_css: "signin.css",
                     my_title: "Login Page"
                 });
@@ -195,9 +217,28 @@ app.get('/Gallery', function(req, res) {
 //
 // submit page 
 app.get('/newMeteoriteSubmissionForm', function(req, res) {
-	res.render('pages/newMeteoriteSubmissionForm',{
-		my_title:"Submit Meteorite"
-	});
+	// res.render('pages/newMeteoriteSubmissionForm',{
+	// 	my_title:"Submit Meteorite"
+	// });
+    var bsPromise = new Promise(function(resolve, reject) {
+        let okChk = logInOKCheck(req, res);
+        resolve(okChk);
+    }); bsPromise.then(function (bsPromise){
+            if(bsPromise[0] === true) {
+                res.render('pages/newMeteoriteSubmissionForm', {
+                    data: bsPromise[1],
+                    local_css: "signin.css",
+                    my_title: "Submission Page"
+                });
+            }
+            else {
+                console.log("loginhelper error", bsPromise);
+                res.render('pages/login', {
+                    local_css: "signin.css",
+                    my_title: "Login Page"
+                });
+            }
+        });
 });
 
 
@@ -293,8 +334,6 @@ app.post('/login/submit', function(req, res) {
                         // display error message in case an error
                     });
 
-                    resolve(res.cookie('HashVal',HashVal));
-                    }); loginPromise.then(function (loginPromise){
                         res.redirect('/');
 
                     }).catch(function (reason) {
@@ -322,8 +361,9 @@ app.post('/login/submit', function(req, res) {
 }); 
 
 app.post('/newMeteoriteSubmissionForm/submit', function(req, res) {
+    console.log('hel');
     var meteor_type = req.body.meteor_type;
-    console.log(meteor_type);
+    console.log('hel', meteor_type);
     console.log(req.body);
 //    con.connect(function(err) {
 //  if (err) throw  err;

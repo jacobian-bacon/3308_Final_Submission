@@ -1775,3 +1775,5 @@ sudo -u postgres psql
 cd labs/3/MicroCite/
 ls
 sudo -u postgres psql
+cd labs/3/MicroCite/
+pm2 logs

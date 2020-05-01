@@ -21,13 +21,15 @@ $\/\/
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1588307373,,"q"
+|2,0,1588317578,,"q"
 :w
-|2,0,1588305467,,"w"
+|2,0,1588317532,,"w"
 :set nonu
-|2,0,1588304609,,"set nonu"
+|2,0,1588317483,,"set nonu"
 :wq
-|2,0,1588302929,,"wq"
+|2,0,1588314443,,"wq"
+:set nu
+|2,0,1588308651,,"set nu"
 :'<,'> s/^/\/\/
 |2,0,1587337147,,"'<,'> s/^/\\/\\/"
 :s/^/\/\/
@@ -40,8 +42,6 @@ $\/\/
 |2,0,1586915329,,"/console\\."
 :q!
 |2,0,1586914990,,"q!"
-:set nu
-|2,0,1586913953,,"set nu"
 :%s/"end_usr"/end_usr/g
 |2,0,1586910812,,"%s/\"end_usr\"/end_usr/g"
 :%s/user/end_usr/g
@@ -126,261 +126,508 @@ $\/\/
 |3,0,0,1,8,0,1586551145,"		  <div class=\"item active\">","			<img style=\"width: 100%; height:600px;\" src=\"../resources/websiteImages/mainPageImage.jpg\" class=\"rounded-circle\" alt=\"Picture of night sky with meteorite\" height = \"500px\">","			<div class=\"carousel-caption\">","				<h3>We Share</h3>","				<p>This is a website was created by students from cu boulder.<br>Our mission is to enable folks to upload and share",>87
 |<"					the locations, images and information on micrometeorites found around the world.","				</p>!</p>","			  </div>"
 ""1	LINE	0
-	          <li><a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-|3,1,1,1,1,0,1588305465,"          <li><a href=\"/register\"><span class=\"glyphicon glyphicon-user\"></span> Sign Up</a></li>"
+	      	 <form action="/newMeteoriteSubmissionForm/submit" id='test_form' method="post">
+|3,1,1,1,1,0,1588317370,"      	 <form action=\"/newMeteoriteSubmissionForm/submit\" id='test_form' method=\"post\">"
 "2	LINE	0
-	        <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-|3,0,2,1,1,0,1588304916,"        <li><a href=\"/login\"><span class=\"glyphicon glyphicon-log-in\"></span> Login</a></li>"
+	            <form>
+|3,0,2,1,1,0,1588317110,"            <form>"
 "3	LINE	0
-	     -->       	
-|3,0,3,1,1,0,1588304574,"     -->       	"
+	         placeholder="Enter Meteor Type">
+|3,0,3,1,1,0,1588316892,"         placeholder=\"Enter Meteor Type\">"
 "4	LINE	0
-	 <!--
-|3,0,4,1,1,0,1588304572," <!--"
+	            <form action="/newMeteoriteSubmissionForm/submit" id='test_final_form' method="post">
+|3,0,4,1,1,0,1588316494,"            <form action=\"/newMeteoriteSubmissionForm/submit\" id='test_final_form' method=\"post\">"
 "5	LINE	0
-	            if (locals.data) {
-|3,0,5,1,1,0,1588304408,"            if (locals.data) {"
+	      		<form>	
+|3,0,5,1,1,0,1588315496,"      		<form>	"
 "6	LINE	0
-	            <% } %>
-|3,0,6,1,1,0,1588304403,"            <% } %>"
+	                    logInOut += " " + user.name + " and your email is " +     user.email;                                                                 
+|3,0,6,1,1,0,1588310842,"                    logInOut += \" \" + user.name + \" and your email is \" +     user.email;                                                                 "
 "7	LINE	0
-	            if (locals.data) {
-|3,0,7,1,1,0,1588304351,"            if (locals.data) {"
+	                logInOut = `<p>Submit Under </p> `; 
+|3,0,7,1,1,0,1588310826,"                logInOut = `<p>Submit Under </p> `; "
 "8	LINE	0
-	            if (locals.data) {
-|3,0,8,1,1,0,1588304324,"            if (locals.data) {"
+	                logInOut = `<p></p> `; 
+|3,0,8,1,1,0,1588310654,"                logInOut = `<p></p> `; "
 "9	LINE	0
-	    </div>
-|3,0,9,1,1,0,1588304030,"    </div>"
+	        		</div>
+|3,0,9,1,1,0,1588310435,"        		</div>"
 "-	CHAR	0
 	"
-|3,0,36,0,1,0,1588305450,"\""
+|3,0,36,0,1,0,1588317325,"\""
 
 # File marks:
-'0  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
-|4,48,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
-'1  13  8  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,49,13,8,1588305483,"~/labs/3/MicroCite/views/partials/menu.ejs"
-'2  1  0  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,50,1,0,1588304806,"~/labs/3/MicroCite/views/partials/menu.ejs"
-'3  1  0  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,51,1,0,1588304806,"~/labs/3/MicroCite/views/partials/menu.ejs"
-'4  1  0  ~/labs/3/MicroCite/views/partials/header.ejs
-|4,52,1,0,1588304785,"~/labs/3/MicroCite/views/partials/header.ejs"
-'5  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,53,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
-'6  25  0  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,54,25,0,1588303803,"~/labs/3/MicroCite/views/pages/home.ejs"
-'7  26  0  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,55,26,0,1588303803,"~/labs/3/MicroCite/views/pages/home.ejs"
-'8  101  113  ~/labs/3/MicroCite/server.js
-|4,56,101,113,1588302929,"~/labs/3/MicroCite/server.js"
-'9  101  43  ~/labs/3/MicroCite/server.js
-|4,57,101,43,1587870336,"~/labs/3/MicroCite/server.js"
+'0  84  9  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,48,84,9,1588317578,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+'1  86  47  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,49,86,47,1588315163,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+'2  86  47  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,50,86,47,1588315163,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+'3  135  37  ~/labs/3/MicroCite/server.js
+|4,51,135,37,1588314443,"~/labs/3/MicroCite/server.js"
+'4  27  27  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,52,27,27,1588310753,"~/labs/3/MicroCite/views/pages/home.ejs"
+'5  88  43  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,53,88,43,1588310699,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+'6  85  43  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,54,85,43,1588310699,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+'7  88  43  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,55,88,43,1588310699,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+'8  85  43  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,56,85,43,1588310699,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+'9  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,57,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
 
 # Jumplist (newest first):
+-'  84  9  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,84,9,1588317578,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  103  13  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,103,13,1588317529,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  60  0  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,60,0,1588317528,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  111  6  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,111,6,1588317473,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  93  11  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,93,11,1588317364,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  21  11  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,21,11,1588317130,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  56  0  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,56,0,1588315532,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  22  0  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,22,0,1588315499,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,1,0,1588315174,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  86  47  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,86,47,1588315163,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  86  47  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,86,47,1588315163,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  135  37  ~/labs/3/MicroCite/server.js
+|4,39,135,37,1588314443,"~/labs/3/MicroCite/server.js"
+-'  135  37  ~/labs/3/MicroCite/server.js
+|4,39,135,37,1588314443,"~/labs/3/MicroCite/server.js"
+-'  88  28  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,88,28,1588310821,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  88  28  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,88,28,1588310821,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,1,0,1588310755,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  27  27  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,27,27,1588310753,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  27  27  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,27,27,1588310753,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  27  27  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,27,27,1588310753,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  27  27  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,27,27,1588310753,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,1,0,1588310712,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,1,0,1588310712,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,1,0,1588310712,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/home.ejs
+|4,39,1,0,1588310712,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  85  43  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,85,43,1588310699,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  85  43  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,85,43,1588310699,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  85  43  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,85,43,1588310699,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,1,0,1588310066,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+|4,39,1,0,1588310066,"~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs"
+-'  231  0  ~/labs/3/MicroCite/server.js
+|4,39,231,0,1588310016,"~/labs/3/MicroCite/server.js"
+-'  231  0  ~/labs/3/MicroCite/server.js
+|4,39,231,0,1588310016,"~/labs/3/MicroCite/server.js"
+-'  100  16  ~/labs/3/MicroCite/server.js
+|4,39,100,16,1588309470,"~/labs/3/MicroCite/server.js"
+-'  100  16  ~/labs/3/MicroCite/server.js
+|4,39,100,16,1588309470,"~/labs/3/MicroCite/server.js"
+-'  94  4  ~/labs/3/MicroCite/server.js
+|4,39,94,4,1588309469,"~/labs/3/MicroCite/server.js"
+-'  115  11  ~/labs/3/MicroCite/server.js
+|4,39,115,11,1588309469,"~/labs/3/MicroCite/server.js"
+-'  94  4  ~/labs/3/MicroCite/server.js
+|4,39,94,4,1588309469,"~/labs/3/MicroCite/server.js"
+-'  115  11  ~/labs/3/MicroCite/server.js
+|4,39,115,11,1588309469,"~/labs/3/MicroCite/server.js"
+-'  87  20  ~/labs/3/MicroCite/server.js
+|4,39,87,20,1588309460,"~/labs/3/MicroCite/server.js"
+-'  87  20  ~/labs/3/MicroCite/server.js
+|4,39,87,20,1588309460,"~/labs/3/MicroCite/server.js"
+-'  101  12  ~/labs/3/MicroCite/server.js
+|4,39,101,12,1588309412,"~/labs/3/MicroCite/server.js"
+-'  101  12  ~/labs/3/MicroCite/server.js
+|4,39,101,12,1588309412,"~/labs/3/MicroCite/server.js"
+-'  95  0  ~/labs/3/MicroCite/server.js
+|4,39,95,0,1588309409,"~/labs/3/MicroCite/server.js"
+-'  95  0  ~/labs/3/MicroCite/server.js
+|4,39,95,0,1588309409,"~/labs/3/MicroCite/server.js"
+-'  114  2  ~/labs/3/MicroCite/server.js
+|4,39,114,2,1588309148,"~/labs/3/MicroCite/server.js"
+-'  114  2  ~/labs/3/MicroCite/server.js
+|4,39,114,2,1588309148,"~/labs/3/MicroCite/server.js"
+-'  116  0  ~/labs/3/MicroCite/server.js
+|4,39,116,0,1588308911,"~/labs/3/MicroCite/server.js"
+-'  116  0  ~/labs/3/MicroCite/server.js
+|4,39,116,0,1588308911,"~/labs/3/MicroCite/server.js"
+-'  108  4  ~/labs/3/MicroCite/server.js
+|4,39,108,4,1588308590,"~/labs/3/MicroCite/server.js"
+-'  108  4  ~/labs/3/MicroCite/server.js
+|4,39,108,4,1588308590,"~/labs/3/MicroCite/server.js"
+-'  352  8  ~/labs/3/MicroCite/server.js
+|4,39,352,8,1588308215,"~/labs/3/MicroCite/server.js"
+-'  352  8  ~/labs/3/MicroCite/server.js
+|4,39,352,8,1588308215,"~/labs/3/MicroCite/server.js"
+-'  146  20  ~/labs/3/MicroCite/server.js
+|4,39,146,20,1588308214,"~/labs/3/MicroCite/server.js"
+-'  146  20  ~/labs/3/MicroCite/server.js
+|4,39,146,20,1588308214,"~/labs/3/MicroCite/server.js"
+-'  148  30  ~/labs/3/MicroCite/server.js
+|4,39,148,30,1588308020,"~/labs/3/MicroCite/server.js"
+-'  148  30  ~/labs/3/MicroCite/server.js
+|4,39,148,30,1588308020,"~/labs/3/MicroCite/server.js"
+-'  103  24  ~/labs/3/MicroCite/server.js
+|4,39,103,24,1588307750,"~/labs/3/MicroCite/server.js"
+-'  103  24  ~/labs/3/MicroCite/server.js
+|4,39,103,24,1588307750,"~/labs/3/MicroCite/server.js"
+-'  209  10  ~/labs/3/MicroCite/server.js
+|4,39,209,10,1588307621,"~/labs/3/MicroCite/server.js"
+-'  209  10  ~/labs/3/MicroCite/server.js
+|4,39,209,10,1588307621,"~/labs/3/MicroCite/server.js"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
 -'  73  0  ~/labs/3/MicroCite/views/pages/login.ejs
 |4,39,73,0,1588307373,"~/labs/3/MicroCite/views/pages/login.ejs"
 -'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
 |4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  1  0  ~/labs/3/MicroCite/views/pages/login.ejs
+|4,39,1,0,1588307361,"~/labs/3/MicroCite/views/pages/login.ejs"
+-'  160  0  ~/labs/3/MicroCite/server.js
+|4,39,160,0,1588307153,"~/labs/3/MicroCite/server.js"
+-'  160  0  ~/labs/3/MicroCite/server.js
+|4,39,160,0,1588307153,"~/labs/3/MicroCite/server.js"
+-'  85  6  ~/labs/3/MicroCite/server.js
+|4,39,85,6,1588306693,"~/labs/3/MicroCite/server.js"
+-'  85  6  ~/labs/3/MicroCite/server.js
+|4,39,85,6,1588306693,"~/labs/3/MicroCite/server.js"
+-'  162  12  ~/labs/3/MicroCite/server.js
+|4,39,162,12,1588306127,"~/labs/3/MicroCite/server.js"
+-'  162  12  ~/labs/3/MicroCite/server.js
+|4,39,162,12,1588306127,"~/labs/3/MicroCite/server.js"
 -'  13  8  ~/labs/3/MicroCite/views/partials/menu.ejs
 |4,39,13,8,1588305483,"~/labs/3/MicroCite/views/partials/menu.ejs"
 -'  13  8  ~/labs/3/MicroCite/views/partials/menu.ejs
 |4,39,13,8,1588305483,"~/labs/3/MicroCite/views/partials/menu.ejs"
--'  22  15  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,39,22,15,1588305396,"~/labs/3/MicroCite/views/partials/menu.ejs"
--'  22  15  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,39,22,15,1588305396,"~/labs/3/MicroCite/views/partials/menu.ejs"
--'  23  0  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,39,23,0,1588305376,"~/labs/3/MicroCite/views/partials/menu.ejs"
--'  23  0  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,39,23,0,1588305376,"~/labs/3/MicroCite/views/partials/menu.ejs"
--'  27  9  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,39,27,9,1588305192,"~/labs/3/MicroCite/views/partials/menu.ejs"
--'  27  9  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,39,27,9,1588305192,"~/labs/3/MicroCite/views/partials/menu.ejs"
--'  1  0  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,39,1,0,1588304808,"~/labs/3/MicroCite/views/partials/menu.ejs"
--'  1  0  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,39,1,0,1588304808,"~/labs/3/MicroCite/views/partials/menu.ejs"
--'  1  0  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,39,1,0,1588304806,"~/labs/3/MicroCite/views/partials/menu.ejs"
--'  1  0  ~/labs/3/MicroCite/views/partials/menu.ejs
-|4,39,1,0,1588304806,"~/labs/3/MicroCite/views/partials/menu.ejs"
--'  1  0  ~/labs/3/MicroCite/views/partials/header.ejs
-|4,39,1,0,1588304785,"~/labs/3/MicroCite/views/partials/header.ejs"
--'  1  0  ~/labs/3/MicroCite/views/partials/header.ejs
-|4,39,1,0,1588304785,"~/labs/3/MicroCite/views/partials/header.ejs"
--'  1  0  ~/labs/3/MicroCite/views/partials/header.ejs
-|4,39,1,0,1588304785,"~/labs/3/MicroCite/views/partials/header.ejs"
--'  1  0  ~/labs/3/MicroCite/views/partials/header.ejs
-|4,39,1,0,1588304785,"~/labs/3/MicroCite/views/partials/header.ejs"
--'  1  0  ~/labs/3/MicroCite/views/partials/header.ejs
-|4,39,1,0,1588304785,"~/labs/3/MicroCite/views/partials/header.ejs"
--'  1  0  ~/labs/3/MicroCite/views/partials/header.ejs
-|4,39,1,0,1588304785,"~/labs/3/MicroCite/views/partials/header.ejs"
--'  1  0  ~/labs/3/MicroCite/views/partials/header.ejs
-|4,39,1,0,1588304785,"~/labs/3/MicroCite/views/partials/header.ejs"
--'  1  0  ~/labs/3/MicroCite/views/partials/header.ejs
-|4,39,1,0,1588304785,"~/labs/3/MicroCite/views/partials/header.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  35  13  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,35,13,1588304760,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  29  14  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,29,14,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  25  31  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,25,31,1588304452,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  24  4  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,24,4,1588304425,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
--'  28  16  ~/labs/3/MicroCite/views/pages/home.ejs
-|4,39,28,16,1588304386,"~/labs/3/MicroCite/views/pages/home.ejs"
+-'  13  8  ~/labs/3/MicroCite/views/partials/menu.ejs
+|4,39,13,8,1588305483,"~/labs/3/MicroCite/views/partials/menu.ejs"
 
 # History of marks within files (newest to oldest):
+
+> ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
+	*	1588317574	0
+	"	84	9
+	.	102	0
+	+	113	0
+	+	103	69
+	+	112	0
+	+	112	25
+	+	103	0
+	+	112	0
+	+	111	28
+	+	103	39
+	+	107	31
+	+	110	0
+	+	106	0
+	+	105	66
+	+	109	66
+	+	114	71
+	+	114	8
+	+	114	7
+	+	114	14
+	+	114	57
+	+	103	71
+	+	114	52
+	+	114	56
+	+	114	13
+	+	114	0
+	+	114	16
+	+	114	0
+	+	114	14
+	+	114	13
+	+	114	14
+	+	114	9
+	+	114	7
+	+	114	85
+	+	114	9
+	+	114	0
+	+	62	16
+	+	91	13
+	+	91	0
+	+	90	7
+	+	67	62
+	+	68	36
+	+	69	45
+	+	70	49
+	+	82	22
+	+	66	17
+	+	88	43
+	+	87	0
+	+	86	0
+	+	86	100
+	+	86	0
+	+	88	0
+	+	86	47
+	+	21	0
+	+	22	0
+	+	21	87
+	+	21	0
+	+	21	80
+	+	21	0
+	+	21	17
+	+	106	6
+	+	105	144
+	+	106	0
+	+	21	0
+	+	20	75
+	+	93	0
+	+	103	0
+	+	102	0
+
+> ~/labs/3/MicroCite/server.js
+	*	1588314443	0
+	"	135	37
+	^	135	38
+	.	135	37
+	+	162	79
+	+	162	45
+	+	162	47
+	+	162	113
+	+	162	49
+	+	162	0
+	+	162	109
+	+	162	0
+	+	162	34
+	+	162	0
+	+	142	59
+	+	143	39
+	+	144	15
+	+	143	16
+	+	151	19
+	+	154	60
+	+	160	12
+	+	117	0
+	+	116	0
+	+	85	0
+	+	86	29
+	+	114	3
+	+	113	7
+	+	112	11
+	+	111	11
+	+	110	8
+	+	108	3
+	+	109	7
+	+	101	0
+	+	100	26
+	+	149	34
+	+	100	27
+	+	116	18
+	+	100	28
+	+	116	15
+	+	149	0
+	+	160	0
+	+	158	18
+	+	155	38
+	+	145	38
+	+	187	2
+	+	188	5
+	+	189	2
+	+	209	0
+	+	208	11
+	+	195	41
+	+	100	23
+	+	100	34
+	+	116	26
+	+	146	26
+	+	148	38
+	+	146	19
+	+	148	30
+	+	146	20
+	+	145	42
+	+	146	31
+	+	193	42
+	+	146	23
+	+	148	34
+	+	116	0
+	+	108	18
+	+	100	16
+	+	101	0
+	+	100	24
+	+	116	16
+	+	100	16
+	+	116	17
+	+	108	11
+	+	115	0
+	+	108	0
+	+	100	21
+	+	95	16
+	+	115	16
+	+	102	32
+	+	115	16
+	+	100	22
+	+	115	11
+	+	107	22
+	+	94	15
+	+	115	16
+	+	194	35
+	+	196	38
+	+	220	3
+	+	221	3
+	+	222	3
+	+	241	10
+	+	228	59
+	+	231	40
+	+	141	5
+	+	160	6
+	+	161	7
+	+	140	11
+	+	122	4
+	+	135	37
+	i	352	72
+	y	259	28
+
+> ~/labs/3/MicroCite/views/pages/home.ejs
+	*	1588310728	0
+	"	27	27
+	^	25	37
+	.	32	0
+	+	32	57
+	+	32	9
+	+	32	47
+	+	32	41
+	+	32	81
+	+	32	18
+	+	32	19
+	+	32	0
+	+	26	19
+	+	25	19
+	+	27	62
+	+	28	58
+	+	28	15
+	+	28	0
+	+	25	30
+	+	25	60
+	+	25	0
+	+	25	87
+	+	26	2
+	+	26	7
+	+	4	0
+	+	26	0
+	+	25	0
+	+	32	0
+	+	32	43
+	+	32	0
+	+	32	85
+	+	32	39
+	+	32	103
+	+	32	0
+	+	32	30
+	+	32	37
+	+	32	82
+	+	32	59
+	+	32	0
+	+	32	86
+	+	32	81
+	+	32	116
+	+	32	11
+	+	32	16
+	+	32	0
+	+	32	41
+	+	32	0
+	+	32	3
+	+	32	11
+	+	32	4
+	+	32	14
+	+	32	0
+	+	32	55
+	+	32	0
+	+	32	11
+	+	1	0
+	+	32	0
+	+	26	0
+	+	18	0
+	+	22	0
+	+	21	0
+	+	26	0
+	+	25	19
+	+	26	22
+	+	28	16
+	+	25	0
+	+	26	0
+	+	31	0
+	+	30	0
+	+	25	36
+	+	22	12
+	+	21	0
+	+	32	0
 
 > ~/labs/3/MicroCite/views/pages/login.ejs
 	*	1588307372	0
@@ -480,223 +727,6 @@ $\/\/
 > ~/labs/3/MicroCite/views/partials/header.ejs
 	*	1588304777	0
 	"	1	0
-
-> ~/labs/3/MicroCite/views/pages/home.ejs
-	*	1588304609	0
-	"	35	13
-	^	25	37
-	.	32	0
-	+	32	57
-	+	32	9
-	+	32	47
-	+	32	41
-	+	32	81
-	+	32	18
-	+	32	19
-	+	32	0
-	+	26	19
-	+	25	19
-	+	27	62
-	+	28	58
-	+	28	15
-	+	28	0
-	+	25	30
-	+	25	60
-	+	25	0
-	+	25	87
-	+	26	2
-	+	26	7
-	+	4	0
-	+	26	0
-	+	25	0
-	+	32	0
-	+	32	43
-	+	32	0
-	+	32	85
-	+	32	39
-	+	32	103
-	+	32	0
-	+	32	30
-	+	32	37
-	+	32	82
-	+	32	59
-	+	32	0
-	+	32	86
-	+	32	81
-	+	32	116
-	+	32	11
-	+	32	16
-	+	32	0
-	+	32	41
-	+	32	0
-	+	32	3
-	+	32	11
-	+	32	4
-	+	32	14
-	+	32	0
-	+	32	55
-	+	32	0
-	+	32	11
-	+	1	0
-	+	32	0
-	+	26	0
-	+	18	0
-	+	22	0
-	+	21	0
-	+	26	0
-	+	25	19
-	+	26	22
-	+	28	16
-	+	25	0
-	+	26	0
-	+	31	0
-	+	30	0
-	+	25	36
-	+	22	12
-	+	21	0
-	+	32	0
-
-> ~/labs/3/MicroCite/server.js
-	*	1588302929	0
-	"	101	113
-	^	101	114
-	.	101	113
-	+	264	65
-	+	265	45
-	+	267	20
-	+	276	13
-	+	17	25
-	+	254	42
-	+	263	57
-	+	97	24
-	+	90	49
-	+	88	56
-	+	89	24
-	+	89	11
-	+	90	11
-	+	90	0
-	+	91	34
-	+	94	21
-	+	90	22
-	+	97	22
-	+	95	5
-	+	91	0
-	+	95	39
-	+	96	11
-	+	97	11
-	+	113	8
-	+	115	5
-	+	116	5
-	+	115	6
-	+	117	12
-	+	125	10
-	+	121	37
-	+	124	15
-	+	121	34
-	+	265	39
-	+	92	44
-	+	90	12
-	+	89	7
-	+	89	0
-	+	87	29
-	+	112	15
-	+	98	25
-	+	111	11
-	+	111	15
-	+	111	19
-	+	111	15
-	+	110	11
-	+	108	15
-	+	108	19
-	+	108	15
-	+	100	15
-	+	99	11
-	+	98	42
-	+	108	0
-	+	111	0
-	+	112	23
-	+	113	12
-	+	115	13
-	+	116	13
-	+	117	12
-	+	118	11
-	+	120	15
-	+	121	15
-	+	122	19
-	+	123	20
-	+	124	16
-	+	110	0
-	+	109	0
-	+	119	11
-	+	118	13
-	+	255	52
-	+	261	7
-	+	260	15
-	+	259	19
-	+	260	23
-	+	258	19
-	+	257	19
-	+	256	19
-	+	257	23
-	+	255	103
-	+	98	25
-	+	112	17
-	+	114	15
-	+	113	42
-	+	100	0
-	+	101	44
-	+	106	18
-	+	103	19
-	+	102	42
-	+	106	19
-	+	105	23
-	+	104	23
-	+	107	16
-	+	114	38
-	+	101	79
-	+	102	45
-	+	100	47
-	+	101	113
-	i	278	72
-	y	185	28
-
-> ~/labs/3/MicroCite/views/pages/newMeteoriteSubmissionForm.ejs
-	*	1587700415	0
-	"	91	0
-	.	104	0
-	+	103	0
-	+	91	69
-	+	102	0
-	+	102	25
-	+	92	0
-	+	102	0
-	+	101	28
-	+	92	39
-	+	97	31
-	+	100	0
-	+	96	0
-	+	94	66
-	+	99	66
-	+	104	71
-	+	104	8
-	+	104	7
-	+	104	14
-	+	104	57
-	+	91	71
-	+	104	52
-	+	104	56
-	+	104	13
-	+	104	0
-	+	104	16
-	+	104	0
-	+	104	14
-	+	104	13
-	+	104	14
-	+	104	9
-	+	104	7
-	+	104	85
-	+	104	9
-	+	104	0
 
 > ~/labs/3/MicroCite/views/worldMap.ejs
 	*	1587332059	0

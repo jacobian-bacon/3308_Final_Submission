@@ -5927,3 +5927,86 @@ ocookie hello 0.31820264347441674
 ocookie hello 0.31820264347441674
 8080 is the magic port
 ocookie hello 0.31820264347441674
+8080 is the magic port
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+8080 is the magic port
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+ocookie hello 0.31820264347441674
+23
+{ meteor_type: '23', metLocation: '24' }
+ocookie hello 0.31820264347441674
+blue
+{ meteor_type: 'blue', metLocation: '23' }
+ocookie hello 0.31820264347441674
+blue
+{ meteor_type: 'blue', metLocation: 'sdf' }
+8080 is the magic port
+ocookie hello 0.31820264347441674
+helo 23
+{ meteor_type: '23', metLocation: '24' }
+8080 is the magic port
+8080 is the magic port
+8080 is the magic port
+hel sfds
+{ meteor_type: 'sfds', metLocation: 'sdf' }
+ocookie hello 0.31820264347441674
+hel 
+{ meteor_type: '', metLocation: '' }
+ocookie hello 0.31820264347441674
+hel sdf
+{ meteor_type: 'sdf', metLocation: 'sdf' }
+ocookie hello 0.31820264347441674
+hel sdf
+{ meteor_type: 'sdf', metLocation: 'sdf' }
+hel 23
+{ meteor_type: '23', metLocation: '23' }
+8080 is the magic port
+ocookie hello 0.31820264347441674
+hel
+hel sfds
+{ meteor_type: 'sfds', metLocation: 'sdfsdf' }
+ocookie hello 0.31820264347441674
+8080 is the magic port
+ocookie hello 0.31820264347441674
+8080 is the magic port
+ocookie hello 0.31820264347441674
+hel
+hel 
+{ meteor_type: '', metLocation: '' }
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
