@@ -81,43 +81,63 @@ app.use(express.static(__dirname + '/'));//This line is necessary for us to use 
   			Next it will pass this result to the player_info view (pages/player_info), which will use the ids & names to populate the select tag for a form 
 ************************************/
 
+function logInOKCheck(req, res) {
+
+    let cookie = 'badCookie';
+let okLoad = new Promise(function (resolve, reject) {
+    try {
+        cookie = req.headers.cookie.split("=")[1];
+    } catch (msg) {
+        reject(console.log(msg, "errrror"));
+    }
+    resolve(cookie);
+}); let ocook = okLoad.then(function (okLoad) {
+
+    let ocookie = db.any('SELECT * FROM end_usr WHERE hash_val=' + cookie + ';')
+        .then(function (rows) {
+            if (rows[0].hash_val <= parseFloat(cookie) + .00000000000001 && rows[0].hash_val >= parseFloat(cookie) - .00000000000001) {
+                console.log('ocookie hello', cookie);
+                return [true, rows]; 
+            }
+        })
+        .catch(function (err) {
+            console.log("unknown error", err);
+            // display error message in case an error
+        });
+        return ocookie;
+    }).catch(function (reason) {
+        console.log("cookieError", reason);
+        res.render('pages/login', {
+            local_css: "signin.css",
+            my_title: "Login Page"
+        });
+    });
+    return ocook;
+}
+
+
 // home page
 app.get('/', function(req, res) {
     //console.log('hello');
-    let cookie = 'badCookie';
-    let okLoad = new Promise(function(resolve, reject) {
-        try {
-            cookie = req.headers.cookie.split("=")[1];
-        } catch(msg) {
-            reject(console.log(msg, "errrror"));
-        }
-        resolve(cookie);
-    }); okLoad.then(function (okLoad) {
-            
-            console.log(cookie);
-            let ocookie = db.any('SELECT * FROM end_usr WHERE hash_val='+cookie+';')
-            .then(function (rows) {
-                console.log('hellorows', rows[0].hash_val); 
-                if (rows[0].hash_val <= parseFloat(cookie) + .00000000000001 && rows[0].hash_val >= parseFloat(cookie) - .00000000000001){
-                    console.log('ocookie hello',cookie);
-                    res.render('pages/home',{
-                        data: rows,
-                        local_css:"signin.css",
-                        my_title:"Login Page"
-                    });
-                }
-                })
-            .catch(function (err) {
-                console.log("unknown error", err);
-            // display error message in case an error
-            });
-            }).catch(function(reason) {
-                console.log("cookieError", reason);
-                res.render('pages/login',{
-                    local_css:"signin.css", 
-                    my_title:"Login Page"
-            });  
-        });
+    var bsPromise = new Promise(function(resolve, reject) {
+        let okChk = logInOKCheck(req, res); 
+        resolve(okChk);
+    }); bsPromise.then(function (bsPromise){
+            if(bsPromise[0] === true) {
+                res.render('pages/home', {
+                    data: bsPromise[1],
+                    local_css: "signin.css",
+                    my_title: "Login Page"
+                });
+            }
+            else {
+                console.log("loginhelper error", bsPromise);
+                res.render('pages/login', {
+                    local_css: "signin.css",
+                    my_title: "Login Page"
+                });
+            }
+        }); 
 });
 
 // registration page 
@@ -143,9 +163,27 @@ app.get('/worldMap', function(req, res) {
 
 // gallary page 
 app.get('/Gallery', function(req, res) {
-	res.render('pages/Gallery',{
-		my_title:"Micro Gallery"
-	});
+	//res.render('pages/Gallery',{
+    //		my_title:"Micro Gallery"
+	//});
+    var bsPromise = new Promise(function(resolve, reject) {
+        let okChk = logInOKCheck(req, res); 
+        resolve(okChk);
+    }); bsPromise.then(function (bsPromise){
+            if(bsPromise) {
+                res.render('pages/Gallery', {
+                    local_css: "signin.css",
+                    my_title: "Login Page"
+                });
+            }
+            else {
+                console.log("loginhelper error", bsPromise);
+                res.render('pages/login', {
+                    local_css: "signin.css",
+                    my_title: "Login Page"
+                });
+            }
+        });
 });
 
 // home page 

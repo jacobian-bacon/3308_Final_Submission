@@ -7265,3 +7265,128 @@ Or, if you meant to create an async function, pass async: true as an option.
     at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
     at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
     at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+TypeError: /root/labs/3/MicroCite/views/pages/home.ejs:23
+    21|     <div class="heading">
+    22|         <h2 >Hello</h2>
+ >> 23|             <%
+    24|             if (locals.data) {
+    25|                 let content = 'potato';
+    26|                 data.forEach(function(user){
+
+data.forEach is not a function
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:57:22)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:126:21
+TypeError: /root/labs/3/MicroCite/views/pages/home.ejs:23
+    21|     <div class="heading">
+    22|         <h2 >Hello</h2>
+ >> 23|             <%
+    24|             if (locals.data) {
+    25|                 let content = 'potato';
+    26|                 data.forEach(function(user){
+
+data.forEach is not a function
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:57:22)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:126:21
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (/root/labs/3/MicroCite/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/labs/3/MicroCite/node_modules/express/lib/response.js:170:12)
+    at done (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1004:10)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:257:5)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (/root/labs/3/MicroCite/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/labs/3/MicroCite/node_modules/express/lib/response.js:170:12)
+    at done (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1004:10)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:257:5)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+ReferenceError: okChk is not defined
+    at /root/labs/3/MicroCite/server.js:125:13
+TypeError: Cannot read property '0' of undefined
+    at /root/labs/3/MicroCite/server.js:125:25
+TypeError: Cannot read property '0' of undefined
+    at /root/labs/3/MicroCite/server.js:125:25
+TypeError: Cannot read property '0' of undefined
+    at /root/labs/3/MicroCite/server.js:125:25
+TypeError: Cannot read property '0' of undefined
+    at /root/labs/3/MicroCite/server.js:125:25
+TypeError: Cannot read property '0' of undefined
+    at /root/labs/3/MicroCite/server.js:126:25
+ReferenceError: ocookie is not defined
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:114:5)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:121:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+ReferenceError: ocookie is not defined
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:115:5)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+ReferenceError: ocookie is not defined
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:115:5)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+ReferenceError: ocookie is not defined
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:115:5)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+ReferenceError: ocookie is not defined
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:115:5)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)

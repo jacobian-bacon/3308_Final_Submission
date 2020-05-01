@@ -5675,3 +5675,255 @@ cookieError undefined
     profile_img: null,
     loggedin: null,
     hash_val: 0.947639211625612 } ]
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:90:41
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:88:18
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at /root/labs/3/MicroCite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/index.js:275:10) 'errrror'
+cookieError undefined
+8080 is the magic port
+ocookie hello 0.947639211625612
+ocookie hello 0.947639211625612
+8080 is the magic port
+loginhelper error false
+ocookie hello 0.947639211625612
+loginhelper error false
+ocookie hello 0.947639211625612
+8080 is the magic port
+loginhelper error false
+ocookie hello 0.947639211625612
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.947639211625612 }
+testusertesty
+testusertesty
+[]
+loginhelper error false
+ocookie hello 0.16757143197877555
+testusertesty
+psswrd
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.167571431978776 }
+testusertesty
+testusertesty
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.167571431978776 }
+testusertesty
+testusertesty
+[]
+loginhelper error false
+ocookie hello 0.7399863552409134
+8080 is the magic port
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.739986355240913 }
+testusertesty
+testusertesty
+[]
+ocookie hello 0.037357825112558585
+8080 is the magic port
+ocookie hello 0.037357825112558585
+ocookie hello 0.037357825112558585
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:121:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+8080 is the magic port
+ocookie hello 0.037357825112558585
+ocookie hello 0.037357825112558585
+8080 is the magic port
+loginhelper error Promise { [ false, [ 'err' ] ] }
+ocookie hello 0.037357825112558585
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.0373578251125586 }
+testusertesty
+testusertesty
+[]
+loginhelper error Promise { [ false, [ 'err' ] ] }
+ocookie hello 0.3802101836875589
+8080 is the magic port
+loginhelper error Promise { [ false, [ 'err' ] ] }
+ocookie hello 0.3802101836875589
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.380210183687559 }
+testusertesty
+testusertesty
+[]
+loginhelper error Promise { [ false, [ 'err' ] ] }
+ocookie hello 0.15559468655869546
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:121:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+loginhelper error Promise { [ false, [ 'err' ] ] }
+cookieError undefined
+8080 is the magic port
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.155594686558695 }
+testusertesty
+testusertesty
+[]
+ocookie hello 0.9177565814524691
+8080 is the magic port
+ocookie hello 0.9177565814524691
+8080 is the magic port
+loginhelper error [ false, [ 'err' ] ]
+ocookie hello 0.9177565814524691
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.917756581452469 }
+testusertesty
+testusertesty
+[]
+loginhelper error [ false, [ 'err' ] ]
+ocookie hello 0.23199404799946266
+8080 is the magic port
+ocookie hello 0.23199404799946266
+8080 is the magic port
+ocookie hello 0.23199404799946266
+8080 is the magic port
+loginhelper error 0.23199404799946266
+ocookie hello 0.23199404799946266
+8080 is the magic port
+loginhelper error 0.23199404799946266
+ocookie hello 0.23199404799946266
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.231994047999463 }
+testusertesty
+testusertesty
+[]
+loginhelper error 0.31820264347441674
+ocookie hello 0.31820264347441674
+8080 is the magic port
+loginhelper error 0.31820264347441674
+ocookie hello 0.31820264347441674
+8080 is the magic port
+ocookie hello 0.31820264347441674
+8080 is the magic port
+loginhelper error 0.31820264347441674
+ocookie hello 0.31820264347441674
+8080 is the magic port
+loginhelper error 0.31820264347441674
+ocookie hello 0.31820264347441674
+loginhelper error 0.31820264347441674
+ocookie hello 0.31820264347441674
+8080 is the magic port
+ocookie hello 0.31820264347441674
+8080 is the magic port
+ocookie hello 0.31820264347441674
+8080 is the magic port
+ocookie hello 0.31820264347441674
+8080 is the magic port
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+8080 is the magic port
+ocookie hello 0.31820264347441674
+8080 is the magic port
+ocookie hello 0.31820264347441674
