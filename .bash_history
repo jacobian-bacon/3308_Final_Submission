@@ -1706,3 +1706,72 @@ ls
 cat server.js
 /c
 sudo -u postgres psql
+cd labs/3/MicroCite/
+pm2 logs
+cd labs/3/MicroCite/
+pm2 logs
+cd labs/3/MicroCite/
+vim views/pages/home.ejs 
+cd labs/3/MicroCite/
+sudo -u postgres psql
+cd 
+git add .
+git commit -m "j edits"
+git push
+cd labs/3/MicroCite/
+sudo -u postgres psql
+cd labs/3/MicroCite/
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+cd labs/3/MicroCite/
+vim server.js
+ls
+cd labs/
+ls
+cd 3/
+ls
+cd MicroCite/
+ls
+cd ..
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/sisraily/MicroMeteoriteCite.git
+git push -u origin master
+cd labs/3/MicroCite/
+postgres
+sudo -u postgres psql
+cd labs/3/MicroCite/
+ls
+sudo -u postgres psql

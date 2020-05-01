@@ -95,19 +95,22 @@ app.get('/', function(req, res) {
     }); okLoad.then(function (okLoad) {
             
             console.log(cookie);
-            db.any('SELECT * FROM end_usr;')
+            let ocookie = db.any('SELECT * FROM end_usr WHERE hash_val='+cookie+';')
             .then(function (rows) {
-                console.log(rows); 
+                console.log('hellorows', rows[0].hash_val); 
+                if (rows[0].hash_val <= parseFloat(cookie) + .00000000000001 && rows[0].hash_val >= parseFloat(cookie) - .00000000000001){
+                    console.log('ocookie hello',cookie);
+                    res.render('pages/home',{
+                        data: rows,
+                        local_css:"signin.css",
+                        my_title:"Login Page"
+                    });
+                }
                 })
             .catch(function (err) {
+                console.log("unknown error", err);
             // display error message in case an error
             });
-            if (cookie){
-	            res.render('pages/home',{
-		            local_css:"signin.css", 
-		            my_title:"Login Page"
-	            });
-            }
             }).catch(function(reason) {
                 console.log("cookieError", reason);
                 res.render('pages/login',{
@@ -244,6 +247,14 @@ app.post('/login/submit', function(req, res) {
             if(info[0][0].password == passwordField){
                 let loginPromise = new Promise((resolve, reject) => {
                     HashVal = Math.random();
+                    db.any("UPDATE end_usr set hash_val=" +HashVal+ " WHERE name = '" + usernameField + "';")
+                    .then(function (rows) {
+                        console.log(rows); 
+                    })
+                    .catch(function (err) {
+                        // display error message in case an error
+                    });
+
                     resolve(res.cookie('HashVal',HashVal));
                     }); loginPromise.then(function (loginPromise){
                         res.redirect('/');
