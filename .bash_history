@@ -1777,3 +1777,46 @@ ls
 sudo -u postgres psql
 cd labs/3/MicroCite/
 pm2 logs
+cd labs/3/MicroCite/views/partials/
+ls
+vim menu.ejs 
+cd labs/3/MicroCite/
+ls
+cd views/
+ls
+cd pages/
+ls
+vim home.ejs 
+cd ..
+vim partials/header.ejs 
+vim partials/menu.ejs 
+cd ..
+git add .
+git commit -m "changes to login"
+git push
+cd labs/3/MicroCite/
+vim views/pages/login.ejs
+cd labs/3/MicroCite/
+cd ..
+git add .
+git commit -m "login utility func initial"
+git push
+cd labs/3/MicroCite/
+vim views/pages/newMeteoriteSubmissionForm.ejs 
+vim views/pages/home.ejs 
+
+vim views/pages/newMeteoriteSubmissionForm.ejs 
+cd .. 
+git ad .
+git add .
+git commit -m "implemented login function, broken meteorite submit"
+git push
+cd labs/3/MicroCite/
+pm2 reload server.js
+pm2 reload server.js --update-env
+reboot
+cd labs/3/MicroCite/
+pm2 logs
+cd labs/3/MicroCite/
+vim server.js
+sudo apt-get upgrade

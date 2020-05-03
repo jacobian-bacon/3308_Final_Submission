@@ -1,27 +1,29 @@
-<nav>      
-<div class="container-fluid" id="micro-custom-nav">
+<nav>
+    <div class="container-fluid" id="micro-custom-nav">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">MicroMeteoriteCite</a>
+            <a class="navbar-brand" href="#">MicroMeteoriteCite</a>
         </div>
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/Gallery">Image Gallery</a></li>
-          <li><a href="/worldMap">Meteorite Map</a></li>
-          <li><a href="/newMeteoriteSubmissionForm">Submit a Meteorite</a></li>
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/Gallery">Image Gallery</a></li>
+            <li><a href="/worldMap">Meteorite Map</a></li>
+            <li><a href="/newMeteoriteSubmissionForm">Submit a Meteorite</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-        <%
+            <%
             {
             var logInOut = '';
-            if (locals.data){
-                logInOut = "<li><a href='/login'><span class='glyphicon glyphicon-log-in'></span> Logout</a></li>";
+            if (locals.data && locals.data != "bad"){
+                logInOut = `<form action="/logout" id='test_form' method="post">
+                                <button type="submit"  class="btn btn-primary">Log Out</button>
+                            </form>`;
             }
             else{
                 logInOut = "<li><a href='/login'><span class='glyphicon glyphicon-log-in'></span> Login</a></li>";
                 logInOut += "<li><a href='/register'><span class='glyphicon glyphicon-user'></span> Sign Up</a></li>"
             } %>
             <%- logInOut %>
-        <% } %>  
+            <% } %>
         </ul>
-      </div>
-    </nav>
+    </div>
+</nav>

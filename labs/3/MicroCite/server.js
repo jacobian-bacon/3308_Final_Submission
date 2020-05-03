@@ -81,6 +81,41 @@ app.use(express.static(__dirname + '/'));//This line is necessary for us to use 
   			Next it will pass this result to the player_info view (pages/player_info), which will use the ids & names to populate the select tag for a form 
 ************************************/
 
+function logOutProceed(req, res) {
+
+    let cookie = 'badCookie';
+    let okLoad = new Promise(function (resolve, reject) {
+        try {
+            cookie = req.headers.cookie.split("=")[1];
+        } catch (msg) {
+            reject(console.log(msg, "errrror"));
+        }
+        resolve(cookie);
+    }); let ocook = okLoad.then(function (okLoad) {
+
+        let ocookie = db.any('SELECT * FROM end_usr WHERE hash_val=' + cookie + ';')
+            .then(function (rows) {
+                if (rows[0].hash_val <= parseFloat(cookie) + .00000000000001 && rows[0].hash_val >= parseFloat(cookie) - .00000000000001) {
+                    console.log('ocookie logout hello', cookie);
+                    return [true, rows[0].hash_val];
+                }
+            })
+            .catch(function (err) {
+                console.log("unknown error", err);
+                // display error message in case an error
+            });
+        return ocookie;
+    }).catch(function (reason) {
+        console.log("cookieLogoutError", reason);
+        res.render('pages/login', {
+            local_css: "signin.css",
+            my_title: "Login Page"
+        });
+    });
+    return ocook;
+}
+
+
 function logInOKCheck(req, res) {
 
     let cookie = 'badCookie';
@@ -89,13 +124,18 @@ let okLoad = new Promise(function (resolve, reject) {
         cookie = req.headers.cookie.split("=")[1];
     } catch (msg) {
         reject(console.log(msg, "errrror"));
+        return [false, 0];
     }
     resolve(cookie);
 }); let ocook = okLoad.then(function (okLoad) {
 
     let ocookie = db.any('SELECT * FROM end_usr WHERE hash_val=' + cookie + ';')
         .then(function (rows) {
-            if (rows[0].hash_val <= parseFloat(cookie) + .00000000000001 && rows[0].hash_val >= parseFloat(cookie) - .00000000000001) {
+            console.log(rows);
+            if (rows.length == 0) {
+                return [false, 0];
+            }
+            else if (rows[0].hash_val <= parseFloat(cookie) + .00000000000001 && rows[0].hash_val >= parseFloat(cookie) - .00000000000001) {
                 console.log('ocookie hello', cookie);
                 return [true, rows]; 
             }
@@ -123,6 +163,7 @@ app.get('/', function(req, res) {
         let okChk = logInOKCheck(req, res); 
         resolve(okChk);
     }); bsPromise.then(function (bsPromise){
+            try {
             if(bsPromise[0] === true) {
                 res.render('pages/home', {
                     data: bsPromise[1],
@@ -137,6 +178,13 @@ app.get('/', function(req, res) {
                     my_title: "Login Page"
                 });
             }
+            } catch (msg) {
+                console.log("xNot Logged In", bsPromise);
+                res.render('pages/home', {
+                    local_css: "signin.css",
+                    my_title: "Login Page"
+                });
+            } 
         }); 
     /*
     var bsPromise = new Promise(function(resolve, reject) {
@@ -306,6 +354,33 @@ app.get('/home/pick_color', function(req, res) {
 
 });
 
+    
+app.post('/logout', function (req, res) {
+    var logoutPromise = new Promise(function (resolve, reject) {
+        let logoutChk = logOutProceed(req, res);
+        resolve(logoutChk);
+    }); logoutPromise.then(function (logoutPromise) {
+        if (logoutPromise[0] === true) {
+            let logoutSuccess = new Promise((resolve, reject) => {
+                db.any("UPDATE end_usr SET hash_val=NULL WHERE hash_val=" + logoutPromise[1] + ";")
+                    .then(function (idval) {
+                        res.render('pages/home', {
+                            local_css: "signin.css",
+                            my_title: "Login Page"
+                        });
+                    })
+                    .catch(function(err){
+                        console.log("logoutError", err);
+                        res.render('pages/home', {
+                            local_css: "signin.css",
+                            my_title: "Login Page"
+                        });
+                    });
+            })
+        }
+    });
+})
+
 app.post('/login/submit', function(req, res) {
     var usernameField = req.body.usernameField;
     var passwordField = req.body.passwordField;
@@ -333,7 +408,7 @@ app.post('/login/submit', function(req, res) {
                     .catch(function (err) {
                         // display error message in case an error
                     });
-
+                        res.cookie('HashVal', HashVal);
                         res.redirect('/');
 
                     }).catch(function (reason) {

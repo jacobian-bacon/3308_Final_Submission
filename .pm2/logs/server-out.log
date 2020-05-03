@@ -6010,3 +6010,1680 @@ ocookie hello 0.31820264347441674
 ocookie hello 0.31820264347441674
 ocookie hello 0.31820264347441674
 ocookie hello 0.31820264347441674
+8080 is the magic port
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:191:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:190:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:191:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:190:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:224:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:223:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:191:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:190:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:191:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:190:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:224:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:223:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:191:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:190:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:191:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:190:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:224:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:223:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:191:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:190:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:191:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:190:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:224:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:223:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:191:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:190:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:224:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:223:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:191:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:190:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:191:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:190:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+ocookie hello 0.31820264347441674
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:89:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:87:14)
+    at /root/labs/3/MicroCite/server.js:123:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:122:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+8080 is the magic port
+ocookie hello 0.31820264347441674
+ocookie logout hello 0.31820264347441674
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.318202643474417 }
+testusertesty
+testusertesty
+[]
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:133:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.206191698534456 }
+testusertesty
+testusertesty
+[]
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:133:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:133:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.732156496787756 }
+testusertesty
+testusertesty
+[]
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:133:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+8080 is the magic port
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:134:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+8080 is the magic port
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:134:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+testusertesty
+password
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.530416228829746 }
+testusertesty
+testusertesty
+8080 is the magic port
+8080 is the magic port
+testusertesty
+pass
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.530416228829746 }
+testusertesty
+testusertesty
+testusertesty
+password
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.530416228829746 }
+testusertesty
+testusertesty
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.530416228829746 }
+testusertesty
+testusertesty
+[]
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:134:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:134:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+testusertesty
+pass
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.265469392932505 }
+testusertesty
+testusertesty
+testusertesty
+ppsswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.265469392932505 }
+testusertesty
+testusertesty
+8080 is the magic port
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:134:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:134:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+testusertesty
+pss
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.265469392932505 }
+testusertesty
+testusertesty
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.265469392932505 }
+testusertesty
+testusertesty
+[]
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:134:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:134:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.102385359608752 }
+testusertesty
+testusertesty
+[]
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:134:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:134:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.561376435930672 }
+testusertesty
+testusertesty
+[]
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:134:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:124:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:122:14)
+    at /root/labs/3/MicroCite/server.js:159:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:158:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+xNot Logged In undefined
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.607226701820281 }
+testusertesty
+testusertesty
+[]
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:124:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:122:14)
+    at /root/labs/3/MicroCite/server.js:159:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:158:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+xNot Logged In undefined
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:134:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+8080 is the magic port
+[]
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:135:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+8080 is the magic port
+[]
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:138:30
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+8080 is the magic port
+[]
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:138:30
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+[]
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:138:30
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+[]
+unknown error TypeError: Cannot read property 'hash_val' of undefined
+    at /root/labs/3/MicroCite/server.js:138:30
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+8080 is the magic port
+[]
+loginhelper error [ false, 0 ]
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.506807845235069 }
+testusertesty
+testusertesty
+[]
+[]
+loginhelper error [ false, 0 ]
+8080 is the magic port
+[]
+loginhelper error [ false, 0 ]
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.312315433860806 }
+testusertesty
+testusertesty
+[]
+unknown error { error: syntax error at or near "HashVa"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 95,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '59',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1127',
+  routine: 'scanner_yyerror' }
+xNot Logged In undefined
+8080 is the magic port
+unknown error { error: syntax error at or near "HashVa"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 95,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '59',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1127',
+  routine: 'scanner_yyerror' }
+xNot Logged In undefined
+testusertesty
+psswrd
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.770347872671811 }
+testusertesty
+testusertesty
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.770347872671811 }
+testusertesty
+testusertesty
+[]
+unknown error { error: syntax error at or near "HashVal"
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 96,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '58',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1127',
+  routine: 'scanner_yyerror' }
+xNot Logged In undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:124:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:122:14)
+    at /root/labs/3/MicroCite/server.js:163:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:162:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+xNot Logged In undefined
+8080 is the magic port
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:124:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:122:14)
+    at /root/labs/3/MicroCite/server.js:163:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:162:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+xNot Logged In undefined
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.317910480530068 }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.029601960979317 } ]
+ocookie hello 0.029601960979317
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.029601960979317 } ]
+ocookie hello 0.029601960979317
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.029601960979317 } ]
+ocookie hello 0.029601960979317
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.029601960979317 } ]
+ocookie hello 0.029601960979317
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.029601960979317 } ]
+ocookie hello 0.029601960979317
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.029601960979317 } ]
+ocookie hello 0.029601960979317
+ocookie logout hello 0.029601960979317
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.290369561358492 } ]
+ocookie hello 0.29036956135849157
+ocookie logout hello 0.29036956135849157
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:124:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:122:14)
+    at /root/labs/3/MicroCite/server.js:163:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:162:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+xNot Logged In undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:124:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:122:14)
+    at /root/labs/3/MicroCite/server.js:239:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:238:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.290369561358492 }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.875007013918204 } ]
+ocookie hello 0.8750070139182042
+ocookie logout hello 0.8750070139182042
