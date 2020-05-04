@@ -435,20 +435,53 @@ app.post('/login/submit', function(req, res) {
     });
 }); 
 
-app.post('/newMeteoriteSubmissionForm/submit', function(req, res) {
+app.post('/newMeteoriteSubmissionForm/submit', function (req, res) {
     console.log('hel');
     var meteor_type = req.body.meteor_type;
     console.log('hel', meteor_type);
     console.log(req.body);
-//    con.connect(function(err) {
-//  if (err) throw  err;
-//  console.log("connected");
-//  var sql = "INSERT INTO `form`(`name`,`email`, `description`) VALUES ('"+req.body.name+"','"+req.body.email+"','"+req.body.description+"')";
-//  con.query(sql, function(err, result)  {
-//   if(err) throw err;
-//   console.log("table created");
-//  });
+    let cookie = 'badCookie';
+    let okSubmit = new Promise(function (resolve, reject) {
+        try {
+            cookie = req.headers.cookie.split("=")[1];
+        } catch (msg) {
+            reject(console.log(msg, "errrror"));
+            return [false, 0];
+        }
+        resolve(cookie);
+    }); okSubmit.then(function (okSubmit) {
+        console.log(okSubmit);
+        var user = "SELECT end_usr_id FROM end_usr WHERE hash_val=" + okSubmit + ";";
+        console.log("user: ", user);
+        let userId = new Promise(function (resolve, reject) {
+            db.any(user)
+                .then(function (rows) {
+                    resolve(rows);
+                })
+                .catch(function (err) {
+                    // display error message in case an error
+                    console.log("error inputting to db", err);
+                });
+        }); userId.then(function (userId) {
+            console.log("new userId: ", userId);
+            var new_input = "INSERT INTO rock_attributes(end_usr_id, lat_coord, long_coord, rock_size, composition, last_update)" + " VALUES (" + userId[0].end_usr_id + "," + parseInt(req.body.lat_location) + ", " + parseInt(req.body.long_location) + "," + req.body.size + ",'" + req.body.composition + "', '1999-01-08 01:01:01');";
+            console.log("new input: ", new_input);
+            if (okSubmit) {
+                db.any(new_input)
+                    .then(function (rows) {
+                        console.log("i am row", rows);
+                        res.redirect('/');
+                    })
+                    .catch(function (err) {
+                        // display error message in case an error
+                        console.log("error inputting to db", err);
+                    });
+            }
+        })
+
+    });
 });
+
 app.post('/home/pick_color', function(req, res) {
 	var color_hex = req.body.color_hex;
 	var color_name = req.body.color_name;

@@ -2797,3 +2797,101 @@
 2020-05-03T20:19:42: PM2 log: pid=32754 msg=process killed
 2020-05-03T20:19:42: PM2 log: App [server:1] starting in -fork mode-
 2020-05-03T20:19:42: PM2 log: App [server:1] online
+2020-05-04T07:21:54: PM2 log: [PM2] This PM2 is not UP TO DATE
+2020-05-04T07:21:54: PM2 log: [PM2] Upgrade to version 4.4.0
+2020-05-04T21:21:39: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T21:21:39: PM2 log: Stopping app:server id:1
+2020-05-04T21:21:39: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T21:21:39: PM2 log: pid=383 msg=process killed
+2020-05-04T21:21:39: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T21:21:39: PM2 log: App [server:1] online
+2020-05-04T21:39:53: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T21:39:53: PM2 log: Stopping app:server id:1
+2020-05-04T21:39:53: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T21:39:53: PM2 log: pid=29161 msg=process killed
+2020-05-04T21:39:53: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T21:39:53: PM2 log: App [server:1] online
+2020-05-04T21:42:28: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T21:42:28: PM2 log: Stopping app:server id:1
+2020-05-04T21:42:28: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T21:42:28: PM2 log: pid=29391 msg=process killed
+2020-05-04T21:42:28: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T21:42:28: PM2 log: App [server:1] online
+2020-05-04T21:43:36: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T21:43:36: PM2 log: Stopping app:server id:1
+2020-05-04T21:43:36: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T21:43:36: PM2 log: pid=29459 msg=process killed
+2020-05-04T21:43:36: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T21:43:36: PM2 log: App [server:1] online
+2020-05-04T21:45:39: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T21:45:39: PM2 log: Stopping app:server id:1
+2020-05-04T21:45:39: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T21:45:39: PM2 log: pid=29513 msg=process killed
+2020-05-04T21:45:39: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T21:45:39: PM2 log: App [server:1] online
+2020-05-04T21:48:03: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T21:48:03: PM2 log: Stopping app:server id:1
+2020-05-04T21:48:03: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T21:48:03: PM2 log: pid=29573 msg=process killed
+2020-05-04T21:48:03: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T21:48:03: PM2 log: App [server:1] online
+2020-05-04T21:50:47: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T21:50:47: PM2 log: Stopping app:server id:1
+2020-05-04T21:50:47: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T21:50:47: PM2 log: pid=29643 msg=process killed
+2020-05-04T21:50:47: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T21:50:47: PM2 log: App [server:1] online
+2020-05-04T21:56:59: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T21:56:59: PM2 log: Stopping app:server id:1
+2020-05-04T21:56:59: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T21:56:59: PM2 log: pid=29721 msg=process killed
+2020-05-04T21:56:59: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T21:56:59: PM2 log: App [server:1] online
+2020-05-04T21:58:27: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T21:58:27: PM2 log: Stopping app:server id:1
+2020-05-04T21:58:27: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T21:58:27: PM2 log: pid=29825 msg=process killed
+2020-05-04T21:58:27: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T21:58:27: PM2 log: App [server:1] online
+2020-05-04T22:01:56: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T22:01:56: PM2 log: Stopping app:server id:1
+2020-05-04T22:01:56: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T22:01:57: PM2 log: pid=29879 msg=process killed
+2020-05-04T22:01:57: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T22:01:57: PM2 log: App [server:1] online
+2020-05-04T22:13:27: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T22:13:27: PM2 log: Stopping app:server id:1
+2020-05-04T22:13:27: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T22:13:27: PM2 log: pid=29955 msg=process killed
+2020-05-04T22:13:27: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T22:13:27: PM2 log: App [server:1] online
+2020-05-04T22:14:45: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T22:14:45: PM2 log: Stopping app:server id:1
+2020-05-04T22:14:45: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T22:14:46: PM2 log: pid=30113 msg=process killed
+2020-05-04T22:14:46: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T22:14:46: PM2 log: App [server:1] online
+2020-05-04T22:16:02: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T22:16:02: PM2 log: Stopping app:server id:1
+2020-05-04T22:16:02: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T22:16:02: PM2 log: pid=30179 msg=process killed
+2020-05-04T22:16:02: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T22:16:02: PM2 log: App [server:1] online
+2020-05-04T22:19:18: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T22:19:18: PM2 log: Stopping app:server id:1
+2020-05-04T22:19:18: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T22:19:18: PM2 log: pid=30227 msg=process killed
+2020-05-04T22:19:18: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T22:19:18: PM2 log: App [server:1] online
+2020-05-04T22:19:28: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T22:19:28: PM2 log: Stopping app:server id:1
+2020-05-04T22:19:28: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T22:19:28: PM2 log: pid=30298 msg=process killed
+2020-05-04T22:19:28: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T22:19:28: PM2 log: App [server:1] online
+2020-05-04T22:20:44: PM2 log: Process 1 in a stopped status, starting it
+2020-05-04T22:20:44: PM2 log: Stopping app:server id:1
+2020-05-04T22:20:44: PM2 log: App [server:1] exited with code [0] via signal [SIGINT]
+2020-05-04T22:20:44: PM2 log: pid=30335 msg=process killed
+2020-05-04T22:20:44: PM2 log: App [server:1] starting in -fork mode-
+2020-05-04T22:20:44: PM2 log: App [server:1] online

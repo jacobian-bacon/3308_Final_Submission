@@ -1820,3 +1820,32 @@ pm2 logs
 cd labs/3/MicroCite/
 vim server.js
 sudo apt-get upgrade
+cd labs/3/MicroCite/
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+pm2 reload server.js
+pm2 logs
+cd labs/3/MicroCite/
+sudo -u postgres psql
+cd labs/3/MicroCite/
+pm2 reload server.js
+pm2 reload server.js --update-env
+cd labs/3/MicroCite/
+vim views/partials/menu.ejs 
+vim views/pages/login
+vim views/pages/home.ejs 
+vim views/pages/login.ejs 
+vim views/partials/menu.ejs 
+vim views/pages/newMeteoriteSubmissionForm.ejs 
+cd labs/3/MicroCite/
+vim server.js
+cd ..
+git add .
+git commit -m "logout implemented"
+git push
+cd labs/3/MicroCite/
+vim server.js 

@@ -2,116 +2,51 @@
 <% include ../partials/menu %>
 
 <style type="text/css">
-	h1 {
-	  background-color: #565656;
-	  color: transparent;
-	  text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
-	  -webkit-background-clip: text;
-		 -moz-background-clip: text;
-			  background-clip: text;
-	}
+    h1 {
+        background-color: #565656;
+        color: transparent;
+        text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.5);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+    }
 </style>
 
 
 
 
-		<div class="top-menu"></div>
-      	<div class = "container">
-            <form action="/newMeteoriteSubmissionForm/submit" id='test_true_form' method="post">
-				  <h1>New Micro-Meteorite Submission!</h1>
-				  <hr>
-      			<div class ="form-group">
-      				<label for="newInterest">Location of found micrometeorite: </label>
-      				<br>	
-					  <input type="text" name="lat_location" placeholder="Latitude">
-					  <input type="text" name="long_location" placeholder="Longitude">
-					  <a href="https://www.latlong.net/" target="_blank">Find it here</a>
-				  </div>
-				  <div class ="form-group">
-					<label for="composition">Rock Composition:</label>
-					<br>	
-					<input type="text" name="composition" placeholder="Rock Composition">
-				</div>
-				<div class ="form-group">
-					<label for="size">Size of Rock:</label>
-					<br>	
-					<input type="text" name="size" placeholder="Rock size">
-				</div>
-      			<div class ="form-group">
-      				<label for="newInterest">Description:</label>
-      				<br>	
-      				<input class="form-control input-lg" id="input" type = "text" name="Name" style="height:150px" placeholder="Any other info you'd like to add!">
-      			</div>
+<div class="top-menu"></div>
+<div class="container">
 
 
-      			<div class = "row">
-      				<div class = "col-md-5">
-      					<div class="container mt-3">
-  							<form action="/action_page.php">    
-    							<p>Image of the Micrometeorite:</p>
-    							<input type="file" accept="image/*" id="microImage" name="filename2">
-  							</form>
-						</div>
-      				</div>
-
-
-      			</div>
-      			<br>
-
-
-            <div>
-                <%
-            {
-            var logInOut = '';
-            if (!locals.data){
-                logInOut = `<p>Login to Finish Submitting</p> 
-                <div class = 'row'> 
-                    <div class = 'col-md-5'> 
-                        <div class='form-group'> 
-                            <input type='email' class='form-control' id='userName' placeholder='Email'>
-                        </div>
-                            
-                    </div>
-
-                    <div class = 'col-md-5'>
-                        <div class='form-group'>
-                            <input type='password' class='form-control' id='inputPassword' placeholder='Password'>
-                        </div>
-                            
-                    </div>                  
-                </div>`;
-            }
-            else{                                                                                                                  
-                data.forEach(function(user){
-                    logInOut += "Submit As User: " + user.name;                                                                 
-                 });
-            } %>
-<%- logInOut %>
-<% } %>
-            </div>
-
-    			<div"mt-3">
-      				<button type="submit" class="btn btn-primary">Submit</button>
-    			</div>
-
-
-
-
-
-      		</form>
-      	 <form action="/newMeteoriteSubmissionForm/submit" id='test_form' method="post">
-              <div class="form-group row">
-                <label for="meteor_type">meteor type</label>
-        <input type="text" class="form-control" name="meteor_type" id="meteor_type" aria-describedby="metHelp" placeholder = "Enter Meteor Type">
-      </div>
-      <div class="form-group row">
-        <label for="metLocation">location</label>
-        <input type="text" class="form-control" name="metLocation" id="metLocation" aria-describedby="locHelp" placeholder="Enter location">
-      </div>
-      <button type="submit"  class="btn btn-primary">Update table</button>
     </form>
-        
-	
-      	</div>
-		<script>$(".top-menu").load("menu.html");</script>
+    <form action="/newMeteoriteSubmissionForm/submit" id='test_form' method="post">
+        <div class="form-group row">
+            <label for="lat_location">Location of found micrometeorite: </label>
+            <br>
+            <input type="text" name="lat_location" placeholder="Latitude">
+            <input type="text" name="long_location" placeholder="Longitude">
+            <a href="https://www.latlong.net/" target="_blank">Find it here</a>
+        </div>
+        <div class="form-group row">
+            <label for="composition">Rock Composition:</label>
+            <br>
+            <input type="text" name="composition" placeholder="Rock Composition">
+        </div>
+        <div class="form-group row">
+            <label for="size">Size of Rock:</label>
+            <br>
+            <input type="text" name="size" placeholder="Rock size">
+        </div>
+        <div class="form-group row">
+            <label for="meteor_type">meteor type</label>
+            <input type="text" class="form-control" name="meteor_type" id="meteor_type" aria-describedby="metHelp"
+                placeholder="Enter Meteor Type">
+        </div>
+        <button type="submit" class="btn btn-primary">Update table</button>
+    </form>
+
+
+</div>
+<script>$(".top-menu").load("menu.html");</script>
 <% include ../partials/footer %>
