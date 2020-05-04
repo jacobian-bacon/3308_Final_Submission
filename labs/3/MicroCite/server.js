@@ -435,11 +435,57 @@ app.post('/login/submit', function(req, res) {
     });
 }); 
 
-app.post('/newMeteoriteSubmissionForm/submit', function (req, res) {
-    console.log('hel');
-    var meteor_type = req.body.meteor_type;
-    console.log('hel', meteor_type);
+
+app.post('/register/submit', function (req, res) {
+    // console.log('hel');
     console.log(req.body);
+    let newUsrInfo = 'badCookie';
+    let okSubmit = new Promise(function (resolve, reject) {
+        try {
+            newUsrInfo = req.body;
+        } catch (msg) {
+            reject(console.log(msg, "errrror"));
+            return [false, 0];
+        }
+        resolve(newUsrInfo[0]);
+    }); okSubmit.then(function (okSubmit) {
+        // console.log(okSubmit);
+        var newUser = "INSERT INTO end_usr (name, email, active, end_usrname, password) VALUES (" + okSubmit.first_name + "," + okSubmit.email + ", true, " + okSubmit.username + "," + okSubmit.password + ");";
+        // console.log("user: ", user);
+        let userId = new Promise(function (resolve, reject) {
+            db.any(newUser)
+                .then(function (rows) {
+                    resolve(rows);
+                })
+                .catch(function (err) {
+                    // display error message in case an error
+                    console.log("error inputting to db", err);
+                });
+        }); userId.then(function (userId) {
+            // console.log("new userId: ", userId);
+            var new_input = "select * from end_user where name=" + req.body[0].first_name + ";";
+            // console.log("new input: ", new_input);
+            if (okSubmit) {
+                db.any(new_input)
+                    .then(function (rows) {
+                        console.log("i am row", rows);
+                        res.redirect('/login');
+                    })
+                    .catch(function (err) {
+                        // display error message in case an error
+                        console.log("error inputting to db", err);
+                    });
+            }
+        })
+
+    });
+});
+
+app.post('/newMeteoriteSubmissionForm/submit', function (req, res) {
+    // console.log('hel');
+    var meteor_type = req.body.meteor_type;
+    // console.log('hel', meteor_type);
+    // console.log(req.body);
     let cookie = 'badCookie';
     let okSubmit = new Promise(function (resolve, reject) {
         try {
@@ -450,9 +496,9 @@ app.post('/newMeteoriteSubmissionForm/submit', function (req, res) {
         }
         resolve(cookie);
     }); okSubmit.then(function (okSubmit) {
-        console.log(okSubmit);
+        // console.log(okSubmit);
         var user = "SELECT end_usr_id FROM end_usr WHERE hash_val=" + okSubmit + ";";
-        console.log("user: ", user);
+        // console.log("user: ", user);
         let userId = new Promise(function (resolve, reject) {
             db.any(user)
                 .then(function (rows) {
@@ -463,13 +509,13 @@ app.post('/newMeteoriteSubmissionForm/submit', function (req, res) {
                     console.log("error inputting to db", err);
                 });
         }); userId.then(function (userId) {
-            console.log("new userId: ", userId);
+            // console.log("new userId: ", userId);
             var new_input = "INSERT INTO rock_attributes(end_usr_id, lat_coord, long_coord, rock_size, composition, last_update)" + " VALUES (" + userId[0].end_usr_id + "," + parseInt(req.body.lat_location) + ", " + parseInt(req.body.long_location) + "," + req.body.size + ",'" + req.body.composition + "', '1999-01-08 01:01:01');";
-            console.log("new input: ", new_input);
+            // console.log("new input: ", new_input);
             if (okSubmit) {
                 db.any(new_input)
                     .then(function (rows) {
-                        console.log("i am row", rows);
+                        // console.log("i am row", rows);
                         res.redirect('/');
                     })
                     .catch(function (err) {
