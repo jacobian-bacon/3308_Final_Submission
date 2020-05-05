@@ -334,7 +334,36 @@ app.get('/newMeteoriteSubmissionForm/submit', function(req, res) {
          my_title:"Submit Meteorite"
      });
 });
+app.get('/home/pick_color', function(req, res) {
+    var color_choice = req.query.color_selection;
+    var color_options =  'select * from favorite_colors;';
+    var color_message = "select color_msg from favorite_colors where hex_value = '" + color_choice + "';";
+    db.task('get-everything', task => {
+        return task.batch([
+            task.any(color_options),
+            task.any(color_message)
+        ]);
+    })
+    .then(info => {
+        res.render('pages/home',{
+                my_title: "Home Page",
+                data: info[0],
+                color: color_choice,
+                color_msg: info[1][0].color_msg
+            })
+    })
+    .catch(err => {
+        // display error message in case an error
+            console.log('error', err);
+            response.render('pages/home', {
+                title: 'Home Page',
+                data: '',
+                color: '',
+                color_msg: ''
+            })
+    });
 
+});
 
     
 app.post('/logout', function (req, res) {
@@ -369,7 +398,7 @@ app.post('/login/submit', function(req, res) {
     console.log(usernameField);
     console.log(passwordField);
     var okField = 'bad';
-    var get_users = "SELECT * FROM end_usr WHERE name='" + usernameField + "';";
+    var get_users = "SELECT * FROM end_usr WHERE end_usrname='" + usernameField + "';";
     db.task('get-everything',task => {
         return task.batch([
             task.any(get_users)
@@ -379,11 +408,11 @@ app.post('/login/submit', function(req, res) {
         console.log(info[0][0]);
         console.log(info[0][0].name);
         console.log(usernameField);
-        if (info[0][0].name == usernameField){
+        if (info[0][0].end_usrname == usernameField){
             if(info[0][0].password == passwordField){
                 let loginPromise = new Promise((resolve, reject) => {
                     HashVal = Math.random();
-                    db.any("UPDATE end_usr set hash_val=" +HashVal+ " WHERE name = '" + usernameField + "';")
+                    db.any("UPDATE end_usr set hash_val=" +HashVal+ " WHERE end_usrname = '" + usernameField + "';")
                     .then(function (rows) {
                         console.log(rows); 
                     })
@@ -446,7 +475,7 @@ app.post('/register/submit', function (req, res) {
         }); userId.then(function (userId) {
             console.log("new userId: ", req.body.first_name);
             console.log("new userId: ", req.body);
-            var new_input = "select * from end_usr where name=" + req.body.first_name + ";";
+            var new_input = "select * from end_usr where end_usrname=" + req.body.first_name + ";";
             // console.log("new input: ", new_input);
             if (okSubmit) {
                 //db.any(new_input)
@@ -511,9 +540,134 @@ app.post('/newMeteoriteSubmissionForm/submit', function (req, res) {
     });
 });
 
+app.post('/home/pick_color', function(req, res) {
+    var color_hex = req.body.color_hex;
+    var color_name = req.body.color_name;
+    var color_message = req.body.color_message;
+    var insert_statement = "INSERT INTO favorite_colors(hex_value, name, color_msg) VALUES('" + color_hex + "','" +
+                            color_name + "','" + color_message +"') ON CONFLICT DO NOTHING;";
+
+    var color_select = 'select * from favorite_colors;';
+    db.task('get-everything', task => {
+        return task.batch([
+            task.any(insert_statement),
+            task.any(color_select)
+        ]);
+    })
+    .then(info => {
+        res.render('pages/home',{
+                my_title: "Home Page",
+                data: info[1],
+                color: color_hex,
+                color_msg: color_message
+            })
+    })
+    .catch(err => {
+        // display error message in case an error
+            console.log('error', err);
+            response.render('pages/home', {
+                title: 'Home Page',
+                data: '',
+                color: '',
+                color_msg: ''
+            })
+    });
+});
+
+// TEAM STATS PAGE //
+app.get('/team_stats', function(req, res) {
+
+    var viewAllGames = 'select * from football_games;';
+    var winCount = 'select count(*) from football_games where home_score > visitor_score;';
+    var lossCount = 'select count(*) from football_games where home_score < visitor_score;';
+    db.task('get-everything', task => {
+        return task.batch([
+        task.any(viewAllGames),
+        task.any(winCount),
+        task.any(lossCount)
+        ]);
+    })
+    .then(data => {
+        res.render('pages/team_stats',{
+                my_title: "Season Statistics",
+                result_1: data[0],
+                result_2: data[1][0],
+                result_3: data[2][0]
+            })
+    })
+    .catch(err => {
+        // display error message in case an error
+        console.log('error', err);
+        res.render('pages/team_stats',{
+                my_title: "Season Statistics",
+                result_1: '',
+                result_2: '',
+                result_3: ''
+            })
+    });
+
+});
 
 
 
+// FOOTBALL PLAYER PAGE //
+app.get('/player_info', function(req, res) {
+
+    var nameId = 'select id, name from football_players;';
+    db.any(nameId).then(function(rows){
+        res.render('pages/player_info',{
+                my_title: 'Player Information',
+                result_1: rows,
+                result_2: '',
+                result_3: ''
+            })
+    })
+    .catch(err => {
+        // display error message in case an error
+        console.log('error', err);
+        res.render('pages/player_info',{
+                my_title: 'Player Information',
+                result_1: '',
+                result_2: '',
+                result_3: ''
+            })
+    });
+
+});
+
+app.get('/player_info/post', function(req, res) {
+    var playerChoice = req.query.player_choice;
+    var nameId = 'select id, name from football_players;';
+    var player = 'select * from football_players where id = ' + playerChoice + ';';
+    var gamesCount = 'select count(*) from football_games inner join football_players on football_players.id = any(football_games.players) where football_players.name = '+ playerChoice +';';
+console.log(player);
+    db.task('get-everything', task => {
+        return task.batch([
+        task.any(nameId),
+        task.any(player),
+        task.any(gamesCount)
+        ]);
+    })
+    .then(data => {
+        res.render('pages/player_info',{
+                my_title: "Player Information",
+                result_1: data[0],
+                result_2: data[1][0],
+                result_3: data[2][0]
+            })
+    })
+    .catch(err => {
+        // display error message in case an error
+        console.log('error', err);
+        res.render('pages/player_info',{
+                my_title: "Player Information",
+                result_1: '',
+                result_2: '',
+                result_3: ''
+            })
+    });
+
+});
 
 app.listen(8080);
 console.log('8080 is the magic port');
