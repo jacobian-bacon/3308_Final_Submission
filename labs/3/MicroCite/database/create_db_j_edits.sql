@@ -27,9 +27,9 @@ DROP TABLE micro_image;
 CREATE TABLE IF NOT EXISTS "micro_image" (
   image_id SERIAL PRIMARY KEY,          /* Unique identifier for each image */
   image_file BYTEA,         /* stores profile image */
-  image_size SMALLINT NOT NULL,     /* size of image */                                 
-  upload_date TIME NOT NULL,        /* date the image was uploaded */
-  end_usr_id DATE NOT NULL,            /* end_usr_id of upload person. FK.*/
+  image_size SMALLINT,     /* size of image */                                 
+  upload_date TIME ,        /* date the image was uploaded */
+  end_usr_id DATE ,            /* end_usr_id of upload person. FK.*/
   positive_votes INT[] NOT NULL,        /* This is an array of end_usrs who voted +  */
   negative_votes INT[] NOT NULL        /* This is an array of end_usrs who voted -  */
 );
