@@ -52,8 +52,16 @@ body {
   <div class-"container">
   	<h1 class="">Thumbnail Gallery</h1>
 
-  	<!-- VARIABLES BELOW -->
-  	<% var allPics = ["micro1.jpg", "micro2.jpg", "micro3.jpg", "micro4.jpg", "micro5.jpg", "micro6.jpg", "micro7.jpg"] %>
+  	<!-- VARIABLES BELOW (FIRST I AM POPULATING AN ARRAY TO FILL THE GALLERY USING THE DATABASE) -->
+  	<% var allPics = [] %>
+  	<%
+  	if (data) {
+  		data.forEach(function(item){
+  			var newStr = item.image_id
+  			allPics.push(newStr)
+
+  		});
+  	} %>
 
 
 
@@ -71,13 +79,8 @@ body {
     				<%var beginningPath = "../../resources/meteoriteImageDatabase/"%>
   					<%var fullSourceTag = beginningPath.concat(allPics[counter])%>
   					<img type="image" src="<%=fullSourceTag%>" alt="meteorite" height = "250px">
-  					<div><h3>Vote Below!</h3></div>
-  					<div>
-  						<button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
-              			<button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
-  					</div>
       				
-      				<%counter=counter+1;%>
+      			<%counter=counter+1;%>
     			</div>
   			</div>
 
@@ -87,12 +90,6 @@ body {
       					<%var beginningPath = "../../resources/meteoriteImageDatabase/"%>
   						<%var fullSourceTag = beginningPath.concat(allPics[counter])%>
   						<img type="image" src="<%=fullSourceTag%>" alt="meteorite" height = "250px">
-
-  						<div><h3>Vote Below!</h3></div>
-  						<div>
-  							<button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
-              				<button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
-  						</div>
 
       					<%counter=counter+1;%>
     				</div>
@@ -107,12 +104,6 @@ body {
       					<%var beginningPath = "../../resources/meteoriteImageDatabase/"%>
   						<%var fullSourceTag = beginningPath.concat(allPics[counter])%>
   						<img type="image" src="<%=fullSourceTag%>" alt="meteorite" height = "250px">
-
-  						<div><h3>Vote Below!</h3></div>
-  						<div>
-  							<button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
-              				<button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
-  						</div>
 
       					<%counter=counter+1;%>
     				</div>
